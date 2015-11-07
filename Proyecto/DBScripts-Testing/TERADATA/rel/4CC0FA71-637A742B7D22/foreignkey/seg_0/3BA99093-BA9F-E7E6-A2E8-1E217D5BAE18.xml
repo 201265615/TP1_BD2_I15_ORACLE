@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3BA99093-BA9F-E7E6-A2E8-1E217D5BAE18" name="PK_NUMCOTIZACIONHISTO">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>PK_NUMCOTIZACIONHISTO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<containerWithKeyObject>3C6C0CBC-4FDE-D4BA-C1BF-4D6C588B2526</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>05A70088-918B-DC9E-6EAE-70984546FC3F</localFKIndex>
+<keyObject>25FAF14F-9D3D-6DA0-DE06-6B257951B0AC</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

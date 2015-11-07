@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_COMPONENTES" directorySegmentName="seg_0" id="FC27F091-A4E3-0066-1D5A-6442BD7D0CF8">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:15 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1FC080AE-E47C-0EC9-99B3-2F77123479F3</segment>
+<tableSpace>57CBD3EB-6EB7-5405-83B4-A9C0DD986185</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODARTICULO" id="30520E20-8830-D608-6A6C-228CAF3537CB">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODCOMPONENTE" id="FDA35C4D-13BC-41C7-5942-B91767972A86">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_COMPONEN233783" id="738B1D72-9526-EC62-9141-5AFEDFC07B63">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_COMPONEN774059" id="8E42E675-0D01-4B97-54BD-3EAC7F1AF23B">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

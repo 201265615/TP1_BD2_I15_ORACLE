@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8D9504E-09DD-5242-2178-A73DA8D19E4B" name="T_PAISES">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_PAISES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:17 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODPAIS" id="75FF8518-5F6A-348E-D37F-963A74770A9F">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PAISES</sourceObjSchema>
+<sourceObjName>CODPAIS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>MVIALES.T_PAISES_CODPAIS_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>T_PAISES_CODPAIS_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="NOMBRE" id="B0E0DDC2-E302-BE04-728D-A8D5BF1EB58E">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PAISES</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4493EC4-823B-70B1-88FC-DA57294BC4F9" name="T_PAISES_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_PAISES_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:23 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75FF8518-5F6A-348E-D37F-963A74770A9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="963E5ABD-EDBE-E3E9-695B-10A15F4257DF" name="T_PAISES_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_PAISES_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:19 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75FF8518-5F6A-348E-D37F-963A74770A9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DB64777-7834-1946-451A-AA3F5C77CAF6" name="T_TIPOCONTACTOS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOCONTACTOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:17 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODTIPOCONTACTO" id="44521D66-0391-F8B3-1944-1AE675422EB9">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCONTACTOS</sourceObjSchema>
+<sourceObjName>CODTIPOCONTACTO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>MVIALES.T_TIPOCONTACTOS_CODTIPOCONTACT</autoIncrementSequenceName>
+<autoIncrementTriggerName>T_TIPOCONTACTOS_CODTIPOCONTACT</autoIncrementTriggerName>
+</Column>
+<Column name="NOMBRE" id="58D40BBE-B495-346E-D7D2-09CD3918E8F2">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCONTACTOS</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9A92106-5716-C968-7EE0-074F05B4BA08" name="T_TIPOCONTACTOS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOCONTACTOS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:23 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44521D66-0391-F8B3-1944-1AE675422EB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACCA960C-6793-C589-32DC-AB5648C7EB7D" name="T_TIPOCONTACTOS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOCONTACTOS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:19 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44521D66-0391-F8B3-1944-1AE675422EB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

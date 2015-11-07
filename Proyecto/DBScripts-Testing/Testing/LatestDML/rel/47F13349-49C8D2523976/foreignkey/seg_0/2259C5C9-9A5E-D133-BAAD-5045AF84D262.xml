@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2259C5C9-9A5E-D133-BAAD-5045AF84D262" name="FKT_ARTICULO382695">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>FKT_ARTICULO382695</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<containerWithKeyObject>079F41C3-3A57-488F-8977-A77C6B17E183</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>230A7B06-E314-5C13-148B-6BA8A6005AC7</localFKIndex>
+<keyObject>FDEEE8C0-44EE-3134-91D4-5F71E41036CE</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_COTIZACIONES_NUMERO_TRG" directorySegmentName="seg_0" id="13AAB097-15D6-F8EC-467B-D14626C1BA0E">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_COTIZACIONES_NUMERO_TRG</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN :NEW.NUMERO := MVIALES.T_COTIZACIONES_NUMERO_SEQ.NEXTVAL;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>NEW.NUMERO IS NULL</condition>
+<owner>3919DA2A-C451-AB45-1584-FB489057BDD4</owner>
+<table>7968E8FB-F810-EF24-F2F7-B2741EB8E305</table>
+</TriggerOraclev10g>

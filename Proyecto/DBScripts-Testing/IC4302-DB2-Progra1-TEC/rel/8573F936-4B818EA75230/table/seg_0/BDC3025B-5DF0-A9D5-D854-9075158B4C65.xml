@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDC3025B-5DF0-A9D5-D854-9075158B4C65" name="T_MONEDAS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_MONEDAS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:15 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="45562859-6EF5-08FB-7E82-E7E32556175D">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_MONEDAS</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="27E062BB-A94C-2E81-26E9-082314732F75">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_MONEDAS</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6B2895E-FE14-E339-66F5-BED22661A970" name="T_MONEDAS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_MONEDAS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:17 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45562859-6EF5-08FB-7E82-E7E32556175D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89F75B87-6FDF-1190-703A-F6B0A0A92F04" name="T_MONEDAS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_MONEDAS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45562859-6EF5-08FB-7E82-E7E32556175D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

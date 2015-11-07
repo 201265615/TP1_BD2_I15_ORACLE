@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SegmentOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SegmentOraclev10g" name="Storage37" directorySegmentName="seg_0" id="99EE4ED9-F72A-BC07-238B-969CB61017E8">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<initrans>2</initrans>
+<maxTrans>255</maxTrans>
+</SegmentOraclev10g>

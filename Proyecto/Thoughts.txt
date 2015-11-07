@@ -1,0 +1,215 @@
+
+
+Organizar atributos y tablas para minimizar redundancia
+Reorganiza tablas en unas mas pequeñas
+Aislar datos para que las modificaciones se hagan en una sola tabla
+
+
+=============================================================================
+Sistema de Emisión de Cotizaciones para ensamblaje de equipos electrónicos
+	Registro de:
+		Clientes
+		Proveedores
+		Articulos Ofrecidos
+		Articulos Necesitados
+		Calcular precios cotizados -> Considere Indice Económico
+
+==============================================================================================
+Artículo
+	código
+	familia
+	descripcion
+	unidad de medida
+	marca
+	modelo
+	cantidad minima
+	cantidad maxima
+	cantidad (en bodega)
+	precio de mercado en colones *
+	precio de mercado en dolares *
+	fecha de actualizacion de precio de mercado
+	usuario que actualizó los precios
+	usuario que registró el articulo
+	fecha de registro de articulo
+	estado (activo / no activo)
+	
+	*
+		Son registrados de las facturas de compra
+		
+	
+==============================================================================================
+Familia
+	i.e
+		default	*
+		Procesadores
+		Tarjetas de video
+		discos duros
+		memorias
+		impresoras
+		monitores
+		escáneres
+		CD-ROM
+		CPU
+		microcomputadoras
+		PLC
+		soluciones integradas
+		sistema operativo
+		software de oficina
+		ambiente de desarrollo
+		software de base de datos
+		etc.
+	
+	codigo
+	descripcion
+	porcentaje de impuesto aplicable a la compra de los articulos que pertenezcan a esta familia
+	aplica impuesto de ventas?
+	codigo del indice económico asociado
+	
+	*
+		Articulos que a los que no se defina una familia
+		
+	
+	
+	
+	
+==============================================================================================
+Articulos Ensamblados
+	codigo
+	[Lista de articulos]
+	
+==============================================================================================
+Unidad de Medida
+	i.e
+		UN : unidad
+		HR : hora de tecnico
+	codigo
+	descripcion
+	
+==============================================================================================
+Lista de precios
+	(tres porcentajes al costo de ensamblaje de un producto)
+	i.e
+		sector publico
+		cliente contado
+		cliente frecuente-contado
+		cliente credito
+		importados
+	
+	codigo
+	descripcion
+	
+	Gasto administrativo
+	Otros gastos
+	Utilidad
+	
+==============================================================================================
+Indice Economico
+	codigo
+	descripcion
+	numero de valores reales para proyección
+	numero de meses a proyectar
+	
+	Se registran cada mes.
+	Es el valor del colon respecto al dolar
+	valor para x numero de meses = # de valores reales (premedio de diferencias en todo el mes)
+	
+	
+
+==============================================================================================
+Clientes y Proveedores
+	cedula Juridica
+	nombre comercial
+	direcciones - 2?
+	apartados postales - 2?
+	teléfonos - 2?
+	correos electronicos - 2?
+	contactos - 2?
+	faxes - 2?
+	
+
+==============================================================================================
+Facturas de compra
+	codigo articulo
+	codigo proveedor
+	fecha de compra
+	precio en colones *
+	precio en dolares *
+	fecha de registro de datos
+	usuario que registró
+	
+	*
+		Corresponde al mismo valor en la tabla
+		
+
+
+
+==============================================================================================
+Cotizacion
+	numero
+	fecha
+	codigo cliente
+	codigo vendedor
+	condiciones de pago
+	condiciones de entrega
+	vigencia
+	observaciones
+	lista de precios utilizada
+	moneda  -> Se debe normalizar (colones, dolares, euro)
+	estado	-> (Vigente, anulada, vencida, con factura)
+	
+	
+	Hacer una tabla para lista de precios utilizada
+		codCotizacion
+		codArticulo
+		precioUsado
+		
+==============================================================================================
+Articulos cotizados
+	codigo
+	cantidad
+	unidad de medida
+	descuento (porcentaje)
+	costo unitario
+	costo grabado
+	monto total (linea)
+	
+	
+	
+Realizacion de cotizaciones
+	Tipos de cambio:
+		Usar el mes actual
+		Usar los primeros de cada mes
+		Se requieren tantos registro como necesite mi formula o el usuario. i.e 4 o 5 meses antes.
+		
+	Proyeccion de indice
+		Usar el Tipo de cambio del mes actual
+		Ese valor se usa para generar la proyeccion
+		la proyeccion debe poderse para los meses que sigan
+		
+	Registro de articulos/Componentes
+		Si no está, se registra
+		
+	Listar componentes
+		Selecciona un articulo
+		Una vez seleccionada, listar los componentes
+		para cada componente mostrar:
+			cantidad, costo, total general
+			
+	Lista de precios prueba
+		Se asigna a la lista de precios prueba
+		No debe haber nadie ahi
+		para determinar la correctitud del precio
+		
+	
+==============================================================================================
+Bitacora de cambios a cotizaciones
+	
+		
+		
+	
+
+	
+		
+	
+
+

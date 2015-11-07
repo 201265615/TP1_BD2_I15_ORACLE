@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE7AF026-F037-BEC7-3EB9-F17D7B3525CF" name="T_LINEASFACTURACOMPRAS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_LINEASFACTURACOMPRAS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODFACTURA" id="7D5F9786-9488-07C3-92CD-DF15D597AC4E">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_LINEASFACTURACOMPRAS</sourceObjSchema>
+<sourceObjName>CODFACTURA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>8FF16734-040C-6C0B-BD58-4A8A05823E52</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C187C65-2DF0-101C-CF1B-D5BD6D47A0DB" referredColumn="8FF16734-040C-6C0B-BD58-4A8A05823E52"/>
+</associations>
+</Column>
+<Column name="CODARTICULO" id="CB6783B6-BBE9-F538-F4B8-4A32196732D4">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_LINEASFACTURACOMPRAS</sourceObjSchema>
+<sourceObjName>CODARTICULO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>5A1BD462-5319-8875-D6AB-12FB3A24299A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0402E24C-546C-8887-F3E2-B3EEC041FBF4" referredColumn="5A1BD462-5319-8875-D6AB-12FB3A24299A"/>
+</associations>
+</Column>
+<Column name="PRECIODOLARES" id="EF1222D6-EEDB-C141-560D-AB8F0B133516">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_LINEASFACTURACOMPRAS</sourceObjSchema>
+<sourceObjName>PRECIODOLARES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>17</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD" id="FBA29AAA-66E6-BAD6-455B-0355179DDEEF">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_LINEASFACTURACOMPRAS</sourceObjSchema>
+<sourceObjName>CANTIDAD</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72AE130E-473A-D890-F746-15D61C7F7655" name="T_LINEASFACTURACOMPRAS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_LINEASFACTURACOMPRAS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:49 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D5F9786-9488-07C3-92CD-DF15D597AC4E"/>
+<colUsage columnID="CB6783B6-BBE9-F538-F4B8-4A32196732D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33448E58-0F47-3133-3458-1B5C59E7C7D8" name="T_LINEASFACTURACOMPRAS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_LINEASFACTURACOMPRAS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D5F9786-9488-07C3-92CD-DF15D597AC4E"/>
+<colUsage columnID="CB6783B6-BBE9-F538-F4B8-4A32196732D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A42AED44-CDB6-18E9-6F4D-DE788D8FFD51" name="FKT_LINEASFA481568">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB6783B6-BBE9-F538-F4B8-4A32196732D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="034B90D7-4B09-078F-C0E6-7581DB916796" name="FKT_LINEASFA50873">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D5F9786-9488-07C3-92CD-DF15D597AC4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

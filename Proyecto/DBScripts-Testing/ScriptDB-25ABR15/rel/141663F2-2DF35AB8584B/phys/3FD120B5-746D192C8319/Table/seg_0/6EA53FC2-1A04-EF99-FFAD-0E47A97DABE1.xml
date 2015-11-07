@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_CONTACTO" directorySegmentName="seg_0" id="6EA53FC2-1A04-EF99-FFAD-0E47A97DABE1">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:17 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>30E0BF31-27F9-DA0E-60D8-C3CB698CF434</segment>
+<tableSpace>7FAEE358-1396-42E0-1F5B-D33E8C413CD4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_CONTACTO_PK" id="2C90BBDF-7A75-898C-5ED1-559413CB364B">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:19 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<segment>954780EB-F34E-31BB-648C-E9771560428E</segment>
+<tableSpace>7FAEE358-1396-42E0-1F5B-D33E8C413CD4</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODEMPRESA" id="149DF9A9-EB07-34A0-D634-3D211B7AECB9">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODCONTACTO" id="2B2F9182-23EA-0F58-BB49-8FDD7B4AE9EF">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="CODTIPOCONTACTO" id="6CD67248-45ED-1C2E-23D4-5F6193ADCB41">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALOR" id="DC57C4B2-68AB-50E7-D9B4-A79A73F8C6D8">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_CONTACTO536274" id="857C29EE-8DEB-ED5C-9586-DF723A4AF834">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_CONTACTO759656" id="D70F4E1C-708C-B2C8-29C9-39C8431CA079">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_CONTACTO_PK" id="6B322586-8199-AEB1-FEB4-3FA44883227E">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:21 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<segment>954780EB-F34E-31BB-648C-E9771560428E</segment>
+<tableSpace>7FAEE358-1396-42E0-1F5B-D33E8C413CD4</tableSpace>
+<existingIndex>2C90BBDF-7A75-898C-5ED1-559413CB364B</existingIndex>
+<indexSegment>954780EB-F34E-31BB-648C-E9771560428E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

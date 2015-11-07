@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EA53FC2-1A04-EF99-FFAD-0E47A97DABE1" name="T_CONTACTO">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_CONTACTO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:17 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODCONTACTO" id="2B2F9182-23EA-0F58-BB49-8FDD7B4AE9EF">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_CONTACTO</sourceObjSchema>
+<sourceObjName>CODCONTACTO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>MVIALES.T_CONTACTO_CODCONTACTO_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>T_CONTACTO_CODCONTACTO_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="CODTIPOCONTACTO" id="6CD67248-45ED-1C2E-23D4-5F6193ADCB41">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_CONTACTO</sourceObjSchema>
+<sourceObjName>CODTIPOCONTACTO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>44521D66-0391-F8B3-1944-1AE675422EB9</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3CB18CA-8565-F81C-B9F7-F3E7575D39C8" referredColumn="44521D66-0391-F8B3-1944-1AE675422EB9"/>
+</associations>
+</Column>
+<Column name="VALOR" id="DC57C4B2-68AB-50E7-D9B4-A79A73F8C6D8">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_CONTACTO</sourceObjSchema>
+<sourceObjName>VALOR</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODEMPRESA" id="149DF9A9-EB07-34A0-D634-3D211B7AECB9">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_CONTACTO</sourceObjSchema>
+<sourceObjName>CODEMPRESA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>48E20A4F-8304-122B-1990-7F8FC4627C12</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46629156-8228-C1EE-C1D2-BA6EC3C6EE74" referredColumn="48E20A4F-8304-122B-1990-7F8FC4627C12"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B322586-8199-AEB1-FEB4-3FA44883227E" name="T_CONTACTO_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_CONTACTO_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:21 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B2F9182-23EA-0F58-BB49-8FDD7B4AE9EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C90BBDF-7A75-898C-5ED1-559413CB364B" name="T_CONTACTO_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_CONTACTO_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:19 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B2F9182-23EA-0F58-BB49-8FDD7B4AE9EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="857C29EE-8DEB-ED5C-9586-DF723A4AF834" name="FKT_CONTACTO536274">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="149DF9A9-EB07-34A0-D634-3D211B7AECB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D70F4E1C-708C-B2C8-29C9-39C8431CA079" name="FKT_CONTACTO759656">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CD67248-45ED-1C2E-23D4-5F6193ADCB41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

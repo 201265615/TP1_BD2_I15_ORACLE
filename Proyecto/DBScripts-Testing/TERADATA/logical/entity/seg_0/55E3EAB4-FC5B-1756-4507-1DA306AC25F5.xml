@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55E3EAB4-FC5B-1756-4507-1DA306AC25F5" name="T FACTURACOMPRAS">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>B326B616-0550-889B-AD95-62E29599E9F0</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="60293CCA-7FE5-11A5-E13D-363C275B2988">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>8FF16734-040C-6C0B-BD58-4A8A05823E52</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="FECCOMPRA" id="43781E1B-ED54-C049-D173-83116AEA3407">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>E86DE4A5-5B7C-F29E-5CC1-3A1D3DC01CEA</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+</Attribute>
+<Attribute name="FECREGISTRO" id="F87508D9-68C4-55CD-E6D3-9AF8BC4C6ED8">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>128C41F1-0054-EF21-9881-5BFB652F665C</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+</Attribute>
+<Attribute name="CODUSERREGISTRO" id="F249980E-D0FE-DE57-8F93-4F20C3DA23E3">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>C8F9EEFF-688D-E916-1747-FF038EB4E0EF</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<referedAttribute>19C2DDBE-63C4-E999-DC95-37E2C4D750C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8FC990DA-2899-9343-D44C-62AF532EB4C6" name="T FACTURACOMPRAS PK">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>EFE0D52F-DB19-7E35-9003-A3B7E6D4EA0E</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60293CCA-7FE5-11A5-E13D-363C275B2988</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

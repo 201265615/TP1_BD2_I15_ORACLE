@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B3A1D41-E374-480F-A832-D922E53CEAF6" name="T TIPOERRORES">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>3627546F-BC5D-3259-8DD2-135E6E510152</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="352AD8F3-E7C3-6DBC-B2F6-DF7E26048D13">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>04D8ADEA-0523-3498-79BD-43B604153392</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+<Attribute name="DESCRIPCION" id="F16C4E94-6532-6C44-4DAA-3AF25106B638">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>2D60DB5A-0603-512E-4627-82FF67435F8F</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="921EBFDE-F7EF-7F0C-3C23-07CF2C665C96" name="T TIPOERRORES PK">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>76AA1A35-D200-3F75-6995-F93962205420</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>352AD8F3-E7C3-6DBC-B2F6-DF7E26048D13</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

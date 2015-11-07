@@ -1,0 +1,223 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C4FAF5D-F03F-6231-C8F7-87A7E5F367E8" name="T ARTICULOS">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>0660332F-3282-D41F-0D38-732C7E942184</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="36D61818-4C7E-A354-915B-3E540D1CB8F5">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>B492BC08-E102-807A-18E3-C6474A8EB5DB</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="DESCRIPCION" id="D561FF78-16FD-38B8-576D-B58E97FB3B95">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>FAEC4259-1E12-9E1E-C0E5-ECAD7498F20C</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="UNDMEDIDA" id="27E82D3A-4EF3-98D0-93B3-4F2E9D7F73A4">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>64178FB8-5B8A-1503-9353-7B0E31B614A3</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<referedAttribute>64A664AB-0588-1B58-1B45-6201B8F03F37</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+<Attribute name="CODMARCA" id="E387A522-D61C-9D2F-F712-67142D387B99">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>7B99466A-4963-CE89-20B7-7E0BA3B64BB1</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<referedAttribute>79D55444-0D21-280A-021D-F9123FE9FC6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+<Attribute name="MODELO" id="028A2A63-6D50-A4C6-6752-8B2EEF9874AF">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>2AE4E285-3086-CA98-84EC-B1F7D02F1823</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="FECREGISTRO" id="2DD77005-55AC-D7BC-2C55-496BCF41C434">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>1EB7AA64-006A-75A4-9F37-25E689F4708C</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+</Attribute>
+<Attribute name="CODFAMILIA" id="74E3FC51-4F3E-23AC-1BBE-3ECBD7DC059B">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>01694676-4DDA-B4BE-EF65-920FB343A3DA</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<referedAttribute>6545594A-FDEB-4A6B-225B-EEBE342D9A14</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+<Attribute name="CODESTARTICULO" id="4024166E-343B-E491-6681-9A6385E88DB6">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>60DF3F37-3042-7809-BD86-2EF626753A95</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<referedAttribute>505DB111-66CE-DDE4-F2DF-AF9916E42F99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+<Attribute name="CODUSERREGISTRO" id="99EF3D6D-A699-F81D-3EAF-B48D1047F149">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>831A5016-F293-54B0-0F1C-3630A0685198</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<referedAttribute>29A7B464-A28E-D5B0-3C43-1779CC57BF4C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="CANTIDAD" id="CB94A2A9-90CB-B4A5-999A-CB1BC2874DEB">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>DF5D58D0-2021-38AB-1603-E9143C39D7A0</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="CANTMAXIMA" id="326E3BFD-40AC-AF90-F53B-C9A3B2C1AC4E">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>C1DAA6EE-33CB-7101-F007-779EA2D444D0</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="CANTMINIMA" id="375C7ECB-5E4A-F065-39C4-5F8F70ABBD2D">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>93765B67-4EE8-51E9-2976-8037E0C4DBCB</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="PRECIOMERCDOLARES" id="06093C9B-062A-9578-1CB6-9F36830CFE1B">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>C215B0F7-AC3E-BACC-F4DF-45EE65C13722</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>17</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="FECHAACTPRECIO" id="44B85D0F-AE0F-45B0-08B6-BB824F8CE070">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>7F19AFA6-5326-B636-5432-200AEE6DC4D9</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D58A4F3-582B-010D-F7BB-7DDEF5131956" name="T ARTICULOS PK">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>0B4F952D-94F0-8EAA-24B9-D4BA5AE0EBDE</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>36D61818-4C7E-A354-915B-3E540D1CB8F5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

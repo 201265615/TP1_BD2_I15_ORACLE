@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A38E9E9A-AB27-FCD6-0CD2-67A9833EE930" name="T_FACTURACOMPRAS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_FACTURACOMPRAS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:17 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="03829446-0627-EFB3-15C9-FFF49A5DA9A7">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_FACTURACOMPRAS</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>MVIALES.T_FACTURACOMPRAS_CODIGO_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>T_FACTURACOMPRAS_CODIGO_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="FECCOMPRA" id="630036BB-53CD-6D8C-2CDF-3B90B0D9D447">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_FACTURACOMPRAS</sourceObjSchema>
+<sourceObjName>FECCOMPRA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECREGISTRO" id="367C1C78-7A9E-CE3D-DEFF-AD7D04ECA450">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_FACTURACOMPRAS</sourceObjSchema>
+<sourceObjName>FECREGISTRO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODUSERREGISTRO" id="3092FD35-487B-7222-7620-3F266685A1E5">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_FACTURACOMPRAS</sourceObjSchema>
+<sourceObjName>CODUSERREGISTRO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<delegate>AEA00469-5FC3-AD75-2028-761051B4D354</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C016D47-D09E-9ED3-FABA-61F36F4CDA3E" referredColumn="AEA00469-5FC3-AD75-2028-761051B4D354"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="115B4599-D5E5-219D-1A73-FC40E39F3D11" name="T_FACTURACOMPRAS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_FACTURACOMPRAS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:22 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03829446-0627-EFB3-15C9-FFF49A5DA9A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB126C27-3763-6133-BD40-C187F1F61F40" name="T_FACTURACOMPRAS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_FACTURACOMPRAS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:19 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03829446-0627-EFB3-15C9-FFF49A5DA9A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D531794-F93E-B789-6E4D-EFD8A899D058" name="FKT_FACTURAC28973">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3092FD35-487B-7222-7620-3F266685A1E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

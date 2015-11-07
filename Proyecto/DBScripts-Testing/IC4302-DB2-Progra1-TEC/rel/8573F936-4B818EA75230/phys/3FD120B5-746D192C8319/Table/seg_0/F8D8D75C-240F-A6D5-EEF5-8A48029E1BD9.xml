@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_PROVINCIAS" directorySegmentName="seg_0" id="F8D8D75C-240F-A6D5-EEF5-8A48029E1BD9">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:15 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A405B916-0F64-EAAE-BE2D-F17298043A39</segment>
+<tableSpace>57CBD3EB-6EB7-5405-83B4-A9C0DD986185</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_PROVINCIAS_PK" id="7C1AF8E1-2A68-8EE4-52A8-31A474E14A8A">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<segment>0ADC54F7-6669-7898-8318-96765888DF46</segment>
+<tableSpace>57CBD3EB-6EB7-5405-83B4-A9C0DD986185</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODPROVINCIA" id="3D14D4BA-5B51-E38F-CDB0-F09244E13B27">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODPAIS" id="5FE79D79-AA2A-D43C-E274-9E6164B4A973">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="A25194DC-2EC1-18FF-C40C-C95F41523640">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_PROVINCI451632" id="8ECA14F2-8EF1-D4C5-57BD-6CC0B91B8453">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_PROVINCIAS_PK" id="6D5F186F-722F-64B7-E688-F727D0357A21">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:17 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<segment>0ADC54F7-6669-7898-8318-96765888DF46</segment>
+<tableSpace>57CBD3EB-6EB7-5405-83B4-A9C0DD986185</tableSpace>
+<existingIndex>7C1AF8E1-2A68-8EE4-52A8-31A474E14A8A</existingIndex>
+<indexSegment>0ADC54F7-6669-7898-8318-96765888DF46</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

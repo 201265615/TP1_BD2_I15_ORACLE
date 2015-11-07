@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E51AC1DF-0F40-2A9F-69DA-531F4FCCB2FF" name="T_BITACORA">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_BITACORA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:15 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="1AF4648C-7116-3FC2-0E72-4DD7C5297268">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_BITACORA</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODUSER" id="AC313431-CBA1-7B0B-4747-A3A4A0ABF9E0">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_BITACORA</sourceObjSchema>
+<sourceObjName>CODUSER</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<delegate>5CF3D718-AF04-B297-6925-EE28EB2F8079</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8662C70-836C-7D25-CC9A-ED68860CBEB3" referredColumn="5CF3D718-AF04-B297-6925-EE28EB2F8079"/>
+</associations>
+</Column>
+<Column name="CODTIPOERROR" id="A5554EDF-CBE1-8480-65DF-036DE565090E">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_BITACORA</sourceObjSchema>
+<sourceObjName>CODTIPOERROR</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>A3630132-154A-947F-78BF-E76B484575E3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73B88560-36CA-67A4-A294-CBE1BAD81FA9" referredColumn="A3630132-154A-947F-78BF-E76B484575E3"/>
+</associations>
+</Column>
+<Column name="FECHAHORA" id="8EA7AB18-27A4-1DCC-98F8-E79321AD4B7F">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_BITACORA</sourceObjSchema>
+<sourceObjName>FECHAHORA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8675422-4AF5-8BB6-45CC-CC71C294BD98" name="T_BITACORA_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_BITACORA_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:17 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AF4648C-7116-3FC2-0E72-4DD7C5297268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="774EF81E-BC14-AAB6-CABC-58869B95D38B" name="T_BITACORA_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_BITACORA_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AF4648C-7116-3FC2-0E72-4DD7C5297268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EADC928-D9B6-DB4D-F235-DA0CEC1E9054" name="FKT_BITACORA251134">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5554EDF-CBE1-8480-65DF-036DE565090E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EB4645E-09BB-6AC5-D520-604F208E40ED" name="FKT_BITACORA84906">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC313431-CBA1-7B0B-4747-A3A4A0ABF9E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

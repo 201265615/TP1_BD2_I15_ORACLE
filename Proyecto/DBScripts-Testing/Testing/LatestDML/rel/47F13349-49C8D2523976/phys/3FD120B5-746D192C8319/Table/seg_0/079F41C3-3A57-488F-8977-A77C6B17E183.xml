@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_ARTICULOSCOTIZADOS" directorySegmentName="seg_0" id="079F41C3-3A57-488F-8977-A77C6B17E183">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:21 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E10EA49B-BF05-2746-59DB-C05048612A3A</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_ARTICULOSCOTIZADOS_PK" id="B1A1E70B-1833-87D7-7161-16981D517A0B">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<segment>6C2DA506-949C-9818-753A-AC09A4443618</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COSTOUNITARIO" id="5979C98D-B669-2F53-D5FF-11E454E8E97C">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTIDAD" id="8116D4FC-07A6-8E87-EDD3-DC6FBC55F114">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PORCENDESCUENTO" id="9575D298-302C-643E-D7EA-4E2920E14A43">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COSTOGRABADO" id="A06131F1-9B8B-FE1E-9CD1-3128C39905E6">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMCOTIZACION" id="B862CB4D-389C-5ACE-48A2-69291E67EEA4">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODARTICULO" id="C25BA2AC-8265-9455-0919-C7C8AA14F8F2">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTOLINEA" id="D4E8AEF1-B897-A3A1-4F02-C2454EF1B56A">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNDMEDIDA" id="FD5B9F2C-67F9-1626-8D1B-50CD76E2E38E">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO382695" id="230A7B06-E314-5C13-148B-6BA8A6005AC7">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO522199" id="880E0C9B-A51D-C5C0-D6C6-C5C3AA917992">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO50573" id="A154C68E-7A3E-5156-AEF7-94EFBE11B41E">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_ARTICULOSCOTIZADOS_PK" id="4D0926AC-C8A6-98F9-D7B5-A4C4DFE23553">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:23 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<segment>6C2DA506-949C-9818-753A-AC09A4443618</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+<existingIndex>B1A1E70B-1833-87D7-7161-16981D517A0B</existingIndex>
+<indexSegment>6C2DA506-949C-9818-753A-AC09A4443618</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

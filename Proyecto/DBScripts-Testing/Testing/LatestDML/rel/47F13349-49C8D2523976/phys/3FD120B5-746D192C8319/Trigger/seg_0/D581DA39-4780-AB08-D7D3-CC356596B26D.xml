@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_PAISES_CODPAIS_TRG" directorySegmentName="seg_0" id="D581DA39-4780-AB08-D7D3-CC356596B26D">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_PAISES_CODPAIS_TRG</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN :NEW.CODPAIS := MVIALES.T_PAISES_CODPAIS_SEQ.NEXTVAL;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>NEW.CODPAIS IS NULL</condition>
+<owner>74339565-964E-63C8-A400-20171FFF8C36</owner>
+<table>C403A4A1-335C-AA24-0003-AFC677F5C02D</table>
+</TriggerOraclev10g>

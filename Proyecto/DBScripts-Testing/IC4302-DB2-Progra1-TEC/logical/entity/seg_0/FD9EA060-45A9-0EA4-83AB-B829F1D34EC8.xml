@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD9EA060-45A9-0EA4-83AB-B829F1D34EC8" name="T IndiceEconomicos">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>71C7D0DC-80F2-BE1D-0211-928E1705B866</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="D66E432A-A422-17BF-0717-35A44BFBD0CE">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>29C431F2-F4AA-D628-8632-6AE31A2BF887</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="DESCRIPCION" id="CD2471D4-9282-DE86-975E-43B2E45DB2D9">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>711726E9-6910-E544-DAF8-85586F62870E</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="NUMVALORESREALES" id="C8B8A47A-7319-B5A4-856E-2463CB7A96E8">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>83820EBD-9656-E8E4-029D-D6BDB5941C1C</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="NUMMESES" id="F4799C1A-15DA-BF11-03CE-F6AD1FA5EA7B">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>224C396D-4233-A9FC-6582-F0BE8BE8DB52</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6C8A8FE-C6CE-D282-B6A3-B26FAC19DDBC" name="T IndiceEconomicos  PK">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>0429FBD1-1092-5576-09E8-21F4159AA45F</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D66E432A-A422-17BF-0717-35A44BFBD0CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

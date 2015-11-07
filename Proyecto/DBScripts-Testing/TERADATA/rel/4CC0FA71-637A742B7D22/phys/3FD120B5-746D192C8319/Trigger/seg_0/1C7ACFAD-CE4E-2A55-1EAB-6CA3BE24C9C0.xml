@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_TIPOUSUARIOS_CODIGO_TRG" directorySegmentName="seg_0" id="1C7ACFAD-CE4E-2A55-1EAB-6CA3BE24C9C0">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOUSUARIOS_CODIGO_TRG</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN :NEW.CODIGO := MVIALES.T_TIPOUSUARIOS_CODIGO_SEQ.NEXTVAL;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>NEW.CODIGO IS NULL</condition>
+<owner>289D7103-DDDA-C9FA-6967-16036284FC5F</owner>
+<table>D2A657B7-7FFA-55F6-1E1B-2BBCA5B159DE</table>
+</TriggerOraclev10g>

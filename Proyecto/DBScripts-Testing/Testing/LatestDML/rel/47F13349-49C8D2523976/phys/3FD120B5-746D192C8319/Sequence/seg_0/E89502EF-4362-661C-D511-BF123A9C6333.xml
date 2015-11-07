@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="SEQ_T_TIPOERRORES" directorySegmentName="seg_0" id="E89502EF-4362-661C-D511-BF123A9C6333">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>SEQ_T_TIPOERRORES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:20 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<cache>20</cache>
+<incrementBy>1</incrementBy>
+<maxValue>9999999999999999999999999999</maxValue>
+<minValue>1</minValue>
+<user>74339565-964E-63C8-A400-20171FFF8C36</user>
+</SequenceOraclev10g>

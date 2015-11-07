@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0B503D9-CCA1-0C6B-57ED-18EFA028511C" name="T_TIPOUSUARIOS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOUSUARIOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="7484EAF8-0A6E-CF22-B154-41C0676D33FB">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOUSUARIOS</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODUSERPERMISO" id="A3A1BADF-79D7-B763-CC5F-D79937E37481">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOUSUARIOS</sourceObjSchema>
+<sourceObjName>CODUSERPERMISO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>80AE98C1-0FF8-A0D8-0EDA-746D5BE840C7</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37F18F2C-AB0B-EA76-B849-DCCF18404B44" referredColumn="80AE98C1-0FF8-A0D8-0EDA-746D5BE840C7"/>
+</associations>
+</Column>
+<Column name="DESCRIPCION" id="75944521-124F-0047-C007-CCFC68E2107F">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOUSUARIOS</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84CF1B88-12A7-5322-3A6C-3637D0B0D649" name="T_TIPOUSUARIOS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOUSUARIOS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:17 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7484EAF8-0A6E-CF22-B154-41C0676D33FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAAB3628-59A1-6ED8-C327-4AAB2FE3C848" name="T_TIPOUSUARIOS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOUSUARIOS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7484EAF8-0A6E-CF22-B154-41C0676D33FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AF4A439-F56A-1F60-4AB2-BFBEDCFA98A5" name="FKT_TIPOUSUA556339">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3A1BADF-79D7-B763-CC5F-D79937E37481"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

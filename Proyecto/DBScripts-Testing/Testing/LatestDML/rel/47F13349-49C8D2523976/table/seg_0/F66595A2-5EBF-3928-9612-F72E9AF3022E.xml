@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F66595A2-5EBF-3928-9612-F72E9AF3022E" name="T_MARCAS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_MARCAS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:21 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="85C98B3A-80A8-CB31-4387-3E912440276A">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_MARCAS</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>MVIALES.T_MARCAS_CODIGO_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>T_MARCAS_CODIGO_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="DESCRIPCION" id="9F1408F4-0941-99E7-74A2-17451EABB010">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_MARCAS</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E082B85-77E2-135F-6DEB-1836ECA5A49C" name="T_MARCAS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_MARCAS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:24 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85C98B3A-80A8-CB31-4387-3E912440276A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE79BBE3-41D0-9A1B-A040-98DA6DA4773A" name="T_MARCAS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_MARCAS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85C98B3A-80A8-CB31-4387-3E912440276A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

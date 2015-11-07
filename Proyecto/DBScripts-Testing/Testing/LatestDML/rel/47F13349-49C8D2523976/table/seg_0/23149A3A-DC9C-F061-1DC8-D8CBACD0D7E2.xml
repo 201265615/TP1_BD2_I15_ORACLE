@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23149A3A-DC9C-F061-1DC8-D8CBACD0D7E2" name="T_TIPOCAMBIOS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOCAMBIOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:21 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODMONEDA1" id="094F1ADC-92DB-80AE-C88C-62A4EE920A00">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>CODMONEDA1</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>3B86E091-CA05-BD3F-1827-F2FBB4605794</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C02F69AE-A917-A4AC-62FE-36070259A748" referredColumn="3B86E091-CA05-BD3F-1827-F2FBB4605794"/>
+</associations>
+</Column>
+<Column name="CODMONEDA2" id="8ADE9EAD-08D0-CA9B-1DBF-A0D88F587189">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>CODMONEDA2</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>3B86E091-CA05-BD3F-1827-F2FBB4605794</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35994D4B-239D-080B-F548-2C911CD020AB" referredColumn="3B86E091-CA05-BD3F-1827-F2FBB4605794"/>
+</associations>
+</Column>
+<Column name="MONTO" id="70DE2D5F-9911-2380-8BF6-7849287773B6">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>MONTO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>17</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODINDICEECONOMICO" id="C2CC3BC2-CCEB-FAB1-8776-D98FBFE2FB93">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>CODINDICEECONOMICO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="89F5855D-9581-B0C1-4887-CA8ED348EBFA">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>3D2A8023-1E1E-0AB8-AABF-174B29CE0A5F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FCDFEB4-B940-1613-7718-BE4B311FCAD8" referredColumn="3D2A8023-1E1E-0AB8-AABF-174B29CE0A5F"/>
+</associations>
+</Column>
+<Column name="MES" id="3EB9B525-4D73-F4D0-333C-3C773E658790">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>MES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>BAA63EF9-DB9D-8159-3081-28F95F4A6580</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04A34CEE-C85C-7788-753B-697ECFF5FEE7" referredColumn="BAA63EF9-DB9D-8159-3081-28F95F4A6580"/>
+</associations>
+</Column>
+<Column name="ANIO" id="78208CF3-42C4-2080-155B-300143504D54">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>ANIO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<delegate>C794D022-0601-7F7D-21E2-380EA1B6D8DB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04A34CEE-C85C-7788-753B-697ECFF5FEE7" referredColumn="C794D022-0601-7F7D-21E2-380EA1B6D8DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D544148-F000-6C8E-221D-317FC076278D" name="FKT_TIPOCAMB620100">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="094F1ADC-92DB-80AE-C88C-62A4EE920A00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AAD3A11-8D37-56A0-1CF3-E3CE49FE24E3" name="FKT_TIPOCAMB620101">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ADE9EAD-08D0-CA9B-1DBF-A0D88F587189"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A9F2E1E-CACB-00DD-8618-1B882B83BC7B" name="FKT_TIPOCAMB651026">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89F5855D-9581-B0C1-4887-CA8ED348EBFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1593568-6E40-2575-6168-F7157577F3CD" name="FKT_TIPOCAMB923514">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EB9B525-4D73-F4D0-333C-3C773E658790"/>
+<colUsage columnID="78208CF3-42C4-2080-155B-300143504D54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

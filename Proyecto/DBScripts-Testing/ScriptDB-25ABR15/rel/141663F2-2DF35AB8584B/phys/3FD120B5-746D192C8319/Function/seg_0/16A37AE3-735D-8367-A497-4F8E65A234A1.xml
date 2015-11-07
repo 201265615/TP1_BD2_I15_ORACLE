@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="SP_TEST_GETARTIC_V2" directorySegmentName="seg_0" id="16A37AE3-735D-8367-A497-4F8E65A234A1">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>SP_TEST_GETARTIC_V2</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:30 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<owner>3919DA2A-C451-AB45-1584-FB489057BDD4</owner>
+<source>CREATE OR REPLACE FUNCTION MVIALES.SP_TEST_GETARTIC_V2 RETURN SYS_REFCURSOR&lt;br/&gt;AS&lt;br/&gt;  CURRESP SYS_REFCURSOR;&lt;br/&gt;BEGIN&lt;br/&gt;  SP_GETARTIC_V2(CURRESP);&lt;br/&gt;  RETURN CURRESP;&lt;br/&gt;END;</source>
+</FunctionOracle>

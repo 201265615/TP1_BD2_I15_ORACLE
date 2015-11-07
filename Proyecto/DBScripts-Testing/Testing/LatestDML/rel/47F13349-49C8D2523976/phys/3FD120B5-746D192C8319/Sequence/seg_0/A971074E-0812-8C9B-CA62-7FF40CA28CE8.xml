@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="T_MONEDAS_CODIGO_SEQ" directorySegmentName="seg_0" id="A971074E-0812-8C9B-CA62-7FF40CA28CE8">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_MONEDAS_CODIGO_SEQ</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:20 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<incrementBy>1</incrementBy>
+<maxValue>9999999999999999999999999999</maxValue>
+<minValue>1</minValue>
+<noCache>YES</noCache>
+<order>YES</order>
+<user>74339565-964E-63C8-A400-20171FFF8C36</user>
+</SequenceOraclev10g>

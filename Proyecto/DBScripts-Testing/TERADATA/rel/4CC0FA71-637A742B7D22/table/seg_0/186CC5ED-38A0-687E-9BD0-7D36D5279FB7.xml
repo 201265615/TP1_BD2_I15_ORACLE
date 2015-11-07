@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="186CC5ED-38A0-687E-9BD0-7D36D5279FB7" name="T_INDICEECONOMICOS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_INDICEECONOMICOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="BA470A5B-3FE2-883A-082F-498E2092B3AE">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_INDICEECONOMICOS</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>MVIALES.T_INDICEECONOMICOS_CODIGO_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>T_INDICEECONOMICOS_CODIGO_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="DESCRIPCION" id="679D2E1F-636A-F7A5-6D60-FDF2F2E07551">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_INDICEECONOMICOS</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMVALORESREALES" id="11DC2A8C-4D22-B7DF-CB20-61AD94BFDC0E">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_INDICEECONOMICOS</sourceObjSchema>
+<sourceObjName>NUMVALORESREALES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMMESES" id="A235518E-0E59-6D47-172F-33D5AE6F4586">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_INDICEECONOMICOS</sourceObjSchema>
+<sourceObjName>NUMMESES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A129E8D-1FD4-C93F-7F44-198ADEAE216E" name="T_INDICEECONOMICOS_PK">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:43:17 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA470A5B-3FE2-883A-082F-498E2092B3AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

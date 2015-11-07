@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_CONTACTO_CODCONTACTO_TRG" directorySegmentName="seg_0" id="791C9465-F0DB-CFAF-2891-3D42BFDE618A">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_CONTACTO_CODCONTACTO_TRG</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN :NEW.CODCONTACTO := MVIALES.T_CONTACTO_CODCONTACTO_SEQ.NEXTVAL;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>NEW.CODCONTACTO IS NULL</condition>
+<owner>74339565-964E-63C8-A400-20171FFF8C36</owner>
+<table>DC90CE2C-2D41-E56E-5FD6-4F979CC7CE99</table>
+</TriggerOraclev10g>

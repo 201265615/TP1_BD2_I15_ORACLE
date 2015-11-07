@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PK_NUMCOTIZACIONHISTO" directorySegmentName="seg_0" id="34389F0F-6F71-FC82-AA70-F6A08D3036F4">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>3BA99093-BA9F-E7E6-A2E8-1E217D5BAE18</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<sourcePk>4063923E-157F-7E55-9CBC-53FEEC79641E</sourcePk>
+<dominantRole>B5E96A7E-43E0-9047-A93D-F1AA09F4A933</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B5E96A7E-43E0-9047-A93D-F1AA09F4A933</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B4973693-F7FA-077D-91D9-CFB1565C4E76</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

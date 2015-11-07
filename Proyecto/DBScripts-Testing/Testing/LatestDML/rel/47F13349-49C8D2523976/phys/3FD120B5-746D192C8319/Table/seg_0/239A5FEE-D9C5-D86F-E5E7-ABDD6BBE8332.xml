@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_PROYECCIONESLISTAPRECIOS" directorySegmentName="seg_0" id="239A5FEE-D9C5-D86F-E5E7-ABDD6BBE8332">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:21 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E10EA49B-BF05-2746-59DB-C05048612A3A</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ANIO" id="11A6661D-18E0-580D-5741-1C0803C93875">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRECIOMERCDOLARESPROYECT" id="6B6C3A87-4911-78C6-5CA3-1A4457D058EF">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODARTICULO" id="6F73390B-0D94-512A-4A15-21D9D03C6F38">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPOCAMBIOPROYECT" id="70BE11E8-30AD-1789-F351-72ABCC68C2C0">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODLISTAPRECIOS" id="D71DA81A-92F2-74BA-0F87-F1953ACE8382">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MES" id="DD4EFD6C-5466-A7EB-6BC4-4F45AE58A25E">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_PROYECCI566293" id="3309FE6C-27BB-02A1-B255-B245E597E017">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_PROYECCI761595" id="B5566DE3-3FA9-40C9-B79E-B3722488C971">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

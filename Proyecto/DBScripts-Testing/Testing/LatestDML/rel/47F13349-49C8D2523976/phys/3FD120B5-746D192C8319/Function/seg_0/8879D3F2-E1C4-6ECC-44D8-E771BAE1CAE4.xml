@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="SP_LISTARTICULOS" directorySegmentName="seg_0" id="8879D3F2-E1C4-6ECC-44D8-E771BAE1CAE4">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>SP_LISTARTICULOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:27 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<owner>74339565-964E-63C8-A400-20171FFF8C36</owner>
+<source>CREATE OR REPLACE function MVIALES.SP_LISTARTICULOS return types.cursortype &lt;br/&gt;as &lt;br/&gt;    l_cursor    types.cursorType; &lt;br/&gt;begin &lt;br/&gt;    open l_cursor for select codigo, descripcion from t_articulos;&lt;br/&gt;    return l_cursor; &lt;br/&gt;end;</source>
+</FunctionOracle>

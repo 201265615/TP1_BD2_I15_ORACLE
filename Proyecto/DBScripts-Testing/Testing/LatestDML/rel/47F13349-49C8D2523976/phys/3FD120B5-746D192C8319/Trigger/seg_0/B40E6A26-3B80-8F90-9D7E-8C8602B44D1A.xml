@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_FAMILIAS_CODIGO_TRG" directorySegmentName="seg_0" id="B40E6A26-3B80-8F90-9D7E-8C8602B44D1A">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_FAMILIAS_CODIGO_TRG</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN :NEW.CODIGO := MVIALES.T_FAMILIAS_CODIGO_SEQ.NEXTVAL;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>NEW.CODIGO IS NULL</condition>
+<owner>74339565-964E-63C8-A400-20171FFF8C36</owner>
+<table>070A005D-DA13-EBC4-D1FE-11123E88AB70</table>
+</TriggerOraclev10g>

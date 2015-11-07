@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D552E259-49A9-1442-786D-5A27796B13E6" name="T_COMPONENTES">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_COMPONENTES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODCOMPONENTE" id="162DD74E-C5D8-0DCC-19A6-C1C4E1E91FB8">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COMPONENTES</sourceObjSchema>
+<sourceObjName>CODCOMPONENTE</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>5A1BD462-5319-8875-D6AB-12FB3A24299A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="693921C3-37F5-FE6B-9568-AC242BD04413" referredColumn="5A1BD462-5319-8875-D6AB-12FB3A24299A"/>
+</associations>
+</Column>
+<Column name="CODARTICULO" id="E2F980AE-8611-2420-071E-2CFCCAF53166">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COMPONENTES</sourceObjSchema>
+<sourceObjName>CODARTICULO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>5A1BD462-5319-8875-D6AB-12FB3A24299A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F25E3BD5-BA0B-4F22-7AC7-1A55AD7D5E0C" referredColumn="5A1BD462-5319-8875-D6AB-12FB3A24299A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09F90524-4ADD-5E5A-C9DB-0ED312DD197A" name="FKT_COMPONEN233783">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="162DD74E-C5D8-0DCC-19A6-C1C4E1E91FB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3C78661-14D1-2C9B-3F06-9E2870E924B9" name="FKT_COMPONEN774059">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2F980AE-8611-2420-071E-2CFCCAF53166"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

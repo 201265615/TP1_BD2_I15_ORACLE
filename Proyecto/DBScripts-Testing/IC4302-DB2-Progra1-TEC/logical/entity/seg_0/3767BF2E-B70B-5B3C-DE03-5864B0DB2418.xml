@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3767BF2E-B70B-5B3C-DE03-5864B0DB2418" name="T LINEASFACTURACOMPRAS">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>DC8B9ED6-5249-E76A-0851-196CBA716E2C</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODFACTURA" id="653C134B-5BD9-38D5-CB2E-7C91AEB6C595">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>C9523B81-D357-7F4A-ECEF-BA60989A583F</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<referedAttribute>4BCB7A09-4844-3B23-ECA7-346631E49667</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="CODARTICULO" id="0DAE483D-0238-8DD7-94B8-6E15ABFE72F5">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>12D83C6E-40F9-2E20-93B8-655CB9DD4A5D</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<referedAttribute>36D61818-4C7E-A354-915B-3E540D1CB8F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="PRECIODOLARES" id="D8794C91-A0C3-E629-6E05-338FD8D2B390">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>A21719A8-05DF-CAF6-5656-69EB8C6042E6</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>17</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="CANTIDAD" id="CD8F9824-3414-EF27-A4E5-D95F732A9B19">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>9222AB0F-858A-92A0-4159-EC668CF116F6</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA1101DB-0ACE-A50F-B068-20EFCC4DB273" name="T LINEASFACTURACOMPRAS PK">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>EAA9DCB6-06CD-3A29-EED4-971DBDA6E6E6</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>653C134B-5BD9-38D5-CB2E-7C91AEB6C595</attributeRef>
+<attributeRef>0DAE483D-0238-8DD7-94B8-6E15ABFE72F5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

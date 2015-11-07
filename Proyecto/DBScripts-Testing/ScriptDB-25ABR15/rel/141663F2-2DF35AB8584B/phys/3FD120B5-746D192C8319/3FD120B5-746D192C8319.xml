@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c" name="Oracle Database 12c" id="14A9D0A6-3CE9-15FA-7327-8A148CCDBAF3" siteID="3FD120B5-9F4E-6278-D5E2-746D192C8319" siteName="Oracle Database 12c" siteType="11">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:13 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</StorageDesignOraclev12c>

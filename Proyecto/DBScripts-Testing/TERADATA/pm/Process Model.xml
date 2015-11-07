@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="FB113C81-A33E-7AC2-86D1-0FA8D7F0A510">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:17:30 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

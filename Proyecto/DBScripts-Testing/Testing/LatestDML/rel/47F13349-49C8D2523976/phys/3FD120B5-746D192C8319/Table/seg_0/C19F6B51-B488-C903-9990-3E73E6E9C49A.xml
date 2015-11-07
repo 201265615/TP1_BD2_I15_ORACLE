@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_TIPOCONTACTOS" directorySegmentName="seg_0" id="C19F6B51-B488-C903-9990-3E73E6E9C49A">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:21 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E10EA49B-BF05-2746-59DB-C05048612A3A</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_TIPOCONTACTOS_PK" id="DFC6442B-6EFD-4C0E-A4A4-7B07C111F114">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<segment>6C2DA506-949C-9818-753A-AC09A4443618</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODTIPOCONTACTO" id="20C55084-BD91-9F93-1CD9-DCB49CC9CA86">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="EF786EA4-C983-CF91-A24E-1B9F3175A9F5">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_TIPOCONTACTOS_PK" id="29407EF3-4619-6A0E-C9AF-21460FC4BB0D">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:24 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<segment>6C2DA506-949C-9818-753A-AC09A4443618</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+<existingIndex>DFC6442B-6EFD-4C0E-A4A4-7B07C111F114</existingIndex>
+<indexSegment>6C2DA506-949C-9818-753A-AC09A4443618</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

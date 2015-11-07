@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_TIPOUSUARIOS" directorySegmentName="seg_0" id="B0B503D9-CCA1-0C6B-57ED-18EFA028511C">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A405B916-0F64-EAAE-BE2D-F17298043A39</segment>
+<tableSpace>57CBD3EB-6EB7-5405-83B4-A9C0DD986185</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_TIPOUSUARIOS_PK" id="EAAB3628-59A1-6ED8-C327-4AAB2FE3C848">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<segment>0ADC54F7-6669-7898-8318-96765888DF46</segment>
+<tableSpace>57CBD3EB-6EB7-5405-83B4-A9C0DD986185</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO" id="7484EAF8-0A6E-CF22-B154-41C0676D33FB">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="75944521-124F-0047-C007-CCFC68E2107F">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODUSERPERMISO" id="A3A1BADF-79D7-B763-CC5F-D79937E37481">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_TIPOUSUA556339" id="7AF4A439-F56A-1F60-4AB2-BFBEDCFA98A5">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_TIPOUSUARIOS_PK" id="84CF1B88-12A7-5322-3A6C-3637D0B0D649">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:17 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<segment>0ADC54F7-6669-7898-8318-96765888DF46</segment>
+<tableSpace>57CBD3EB-6EB7-5405-83B4-A9C0DD986185</tableSpace>
+<existingIndex>EAAB3628-59A1-6ED8-C327-4AAB2FE3C848</existingIndex>
+<indexSegment>0ADC54F7-6669-7898-8318-96765888DF46</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

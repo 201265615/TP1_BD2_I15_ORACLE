@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_LISTAPRECIOXARTICULOS" directorySegmentName="seg_0" id="B3138B1A-A995-9091-8547-80E43382DFBD">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:21 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E10EA49B-BF05-2746-59DB-C05048612A3A</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_LISTAPRECIOXARTICULOS_PK" id="76A6AB2F-B9EA-82DA-891E-C9C264C80F6E">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<segment>6C2DA506-949C-9818-753A-AC09A4443618</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODARTICULO" id="1F0FE309-0847-FAC5-71FF-BAEEF983476D">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODLISTAPRECIO" id="A1013F0E-8D78-92EA-1060-5D43BC891F52">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_LISTAPRE160880" id="5B7A6C8B-8BC9-16E2-F938-FBA70C071854">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_LISTAPRE78013" id="A2725B1A-7B43-22D3-A31A-09CB102BA830">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_LISTAPRECIOXARTICULOS_PK" id="87E5F0EA-F94A-A139-F5CC-34F1934FF05B">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:24 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<segment>6C2DA506-949C-9818-753A-AC09A4443618</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+<existingIndex>76A6AB2F-B9EA-82DA-891E-C9C264C80F6E</existingIndex>
+<indexSegment>6C2DA506-949C-9818-753A-AC09A4443618</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

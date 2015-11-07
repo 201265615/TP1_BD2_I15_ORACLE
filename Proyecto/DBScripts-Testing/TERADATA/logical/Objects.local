@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="5680CB87-F0A9-8095-78F3-B940D0F9D530" name="T ARTICULOESTADOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="03CA1A57-18E3-4F76-F8F0-B10147951200" name="T ARTICULOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E8C03F01-8EE1-F160-97A9-FC5B2E7A2BBD" name="T ARTICULOSCOTIZADOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B4973693-F7FA-077D-91D9-CFB1565C4E76" name="T ARTICULOSCOTIZADOSHISTO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4DF38B88-279F-9E11-C265-B8094C8912ED" name="T BITACORA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D6C78586-D8C2-A835-C36F-2A5133AA5368" name="T COMPONENTES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F34FE03C-7B39-E532-B0B7-605953684578" name="T CONTACTO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="858F665D-2E0E-A7F4-AF93-DFA351C69BC2" name="T COTIZACIONES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B5E96A7E-43E0-9047-A93D-F1AA09F4A933" name="T COTIZACIONESHISTO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FEC729C2-BE45-903E-BC5F-F095DD68AED9" name="T COTIZACIONESTADOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6A402C28-955E-2FE4-EA8E-6D7DCB3476FA" name="T CUIDADES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="10FFE801-526D-3259-0A5A-606E779A22E2" name="T DETALLEDIRECCION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="08A9E906-1C69-5131-49E9-80ED6379CE5B" name="T EMPRESA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C3D84D09-2938-E3A6-823F-4C4A4D9690EE" name="T ESTADOSTIPOCAMBIOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="55E3EAB4-FC5B-1756-4507-1DA306AC25F5" name="T FACTURACOMPRAS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="288C5448-2A15-40EB-D9EC-092FDBCFC5A0" name="T FAMILIAS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="12CF998E-A20D-2365-6CE7-9FB727321189" name="T INDICEECONOMICOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DCC8FA66-D688-7A51-177C-7409A3C15690" name="T LINEASFACTURACOMPRAS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FD8F1F2B-908E-F74D-15A8-AE2440FF0926" name="T LISTAPRECIOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6F598755-F6D8-A20D-B767-02C0A2479120" name="T LISTAPRECIOXARTICULOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9F489339-17EC-5E22-A3E7-A7AE7240A7F5" name="T MARCAS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="30721403-4310-B498-321E-BECC88B8C069" name="T MESANIO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6FA9DB4D-60FA-8107-359D-B472A7BF8A4D" name="T MONEDAS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="135AE538-B048-9B96-AEE9-2AF2F67B9173" name="T PAISES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7F92BBB9-8428-0F8D-A751-D99FB2B702BB" name="T PERMISOUSUARIOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F682A7F2-5BC3-DCBD-3B46-8DF92DA1744C" name="T PROVINCIAS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5FD3D99E-D579-17CE-BD0C-C46B75E3D6E7" name="T PROYECCIONESLISTAPRECIOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B7FD1F0B-5F40-43B7-2629-B7022012211C" name="T TIPOCAMBIOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4EF81B07-109A-AA8B-13E2-75E0EF2AC883" name="T TIPOCONTACTOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="44FC30CE-3742-8069-D2DF-0D4C3E16A669" name="T TIPOEMPRESA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1B3A1D41-E374-480F-A832-D922E53CEAF6" name="T TIPOERRORES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="343F72EF-F4F5-FF3C-C18D-17E35D6B9B40" name="T TIPOUSUARIOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F54DF595-CC8C-C049-B9D5-562369865967" name="T UNIDADMEDIDAS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="50FC9041-7011-EB32-4E7A-4BBAE1BAA176" name="T USUARIOS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="24F592DC-218A-EB4E-C1E6-F9AE003EB5A0" name="FKT_ARTICULO382695" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E425C0CB-B04A-FEAD-AA1B-25796B40ED68" name="FKT_ARTICULO50573" seqName="seg_0"/>
+   <object objectType="Relation" objectID="677B2441-3C43-5DAE-EBB4-09B877A403F4" name="FKT_ARTICULO522199" seqName="seg_0"/>
+   <object objectType="Relation" objectID="27BE8406-9861-3437-09AD-30E8EE6C168A" name="FKT_ARTICULO570863" seqName="seg_0"/>
+   <object objectType="Relation" objectID="187569A2-2235-084B-2076-69E423BB64E3" name="FKT_ARTICULO578076" seqName="seg_0"/>
+   <object objectType="Relation" objectID="ED711385-DAEA-B312-5B36-ED889309C84C" name="FKT_ARTICULO840016" seqName="seg_0"/>
+   <object objectType="Relation" objectID="827CDC52-4DFC-19AC-C21B-D1FE0D40654D" name="FKT_ARTICULO848891" seqName="seg_0"/>
+   <object objectType="Relation" objectID="56678502-233A-737E-CB1C-800B64018755" name="FKT_ARTICULO904486" seqName="seg_0"/>
+   <object objectType="Relation" objectID="728437F4-30A9-640B-DFBC-9DD833853FA4" name="FKT_BITACORA251134" seqName="seg_0"/>
+   <object objectType="Relation" objectID="588294A2-CB85-BDDD-AF37-8FD809E33FB3" name="FKT_BITACORA84906" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E2306D3D-617E-4917-BFC6-13156FBD23D9" name="FKT_COMPONEN233783" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1D179016-B32E-6592-5631-F84F30B22487" name="FKT_COMPONEN774059" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C947B054-23C2-7B01-3B74-6BDA053C9B60" name="FKT_CONTACTO536274" seqName="seg_0"/>
+   <object objectType="Relation" objectID="2A4D1CF8-3412-F359-9559-966A7F02844E" name="FKT_CONTACTO759656" seqName="seg_0"/>
+   <object objectType="Relation" objectID="15D1975B-1F65-B706-9EAE-EF202900B7A2" name="FKT_COTIZACI344790" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FE37142F-9E6A-4A95-250A-9E9379AF46B3" name="FKT_COTIZACI429323" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5B1CB5ED-9C94-78BB-666C-B9B68399B2A7" name="FKT_COTIZACI656953" seqName="seg_0"/>
+   <object objectType="Relation" objectID="168BFACF-8B4E-553A-41E7-F037281ABACF" name="FKT_COTIZACI717841" seqName="seg_0"/>
+   <object objectType="Relation" objectID="76ACC18E-50DB-3581-087B-8E0B14A71B4F" name="FKT_COTIZACI920077" seqName="seg_0"/>
+   <object objectType="Relation" objectID="224C985F-ADEC-0A6E-DA4D-85BDFFC60D9A" name="FKT_CUIDADES473810" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C8A9C683-18CE-D31A-7A93-11B3C6AFE44A" name="FKT_DETALLED350223" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3139A878-F33B-61D3-4DC2-C85560C20D04" name="FKT_EMPRESA228590" seqName="seg_0"/>
+   <object objectType="Relation" objectID="0EF4B036-27BB-F3C9-E3AB-11D0F2A1C789" name="FKT_EMPRESA469254" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C8F9EEFF-688D-E916-1747-FF038EB4E0EF" name="FKT_FACTURAC28973" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4B2EB6EA-AB6B-B2F8-EA09-333F1C9AEF63" name="FKT_LINEASFA481568" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E0F80939-1084-47AF-CD94-47C8A87CE8E1" name="FKT_LINEASFA50873" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A36AAD4A-0F1E-B9CE-3F18-1E80989F89B0" name="FKT_LISTAPRE160880" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EFB4A72C-0560-EE9C-B796-01258919E11A" name="FKT_LISTAPRE78013" seqName="seg_0"/>
+   <object objectType="Relation" objectID="44F24EE6-CB8A-26AF-1C8C-CD127436AAC7" name="FKT_PROVINCI451632" seqName="seg_0"/>
+   <object objectType="Relation" objectID="48F76764-9083-43EA-0F59-5E0C43DB2480" name="FKT_PROYECCI566293" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9F23C0AC-4C30-F5CA-6CB0-7F10F39DE178" name="FKT_PROYECCI761595" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D769B3CA-E984-6831-1396-35CA66C3CAEF" name="FKT_TIPOCAMB620100" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6B963727-AD5A-3284-F751-085D2D593CCE" name="FKT_TIPOCAMB620101" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A2EC2D5D-BD7C-591A-1ADD-07FB6A263D42" name="FKT_TIPOCAMB651026" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4F113BBB-E2EF-7A91-25E5-8ECCDDB0C404" name="FKT_TIPOCAMB923514" seqName="seg_0"/>
+   <object objectType="Relation" objectID="0DFC400C-8133-449C-C6E9-B9590E5C7E55" name="FKT_TIPOUSUA556339" seqName="seg_0"/>
+   <object objectType="Relation" objectID="0F000760-8D40-5A87-5340-79B33F169A4D" name="FKT_USUARIOS41238" seqName="seg_0"/>
+   <object objectType="Relation" objectID="34389F0F-6F71-FC82-AA70-F6A08D3036F4" name="PK_NUMCOTIZACIONHISTO" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F6D4DD9A-6E93-F456-47D4-B788CE453A5F" name="T_FAMILIAS_T_INDICEECONOMICOS_FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D6B794C1-6851-7310-5F7E-E077FA60EB05" name="T_TIPOCAMBIOS_T_INDICEECONOMICOS_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE598CCF-51F3-194F-5B80-BC01A9CD5479" name="T_PROVINCIAS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_PROVINCIAS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:21 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODPROVINCIA" id="6E7D6E98-CFC7-A082-1CB9-6BD8B83AB5E5">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROVINCIAS</sourceObjSchema>
+<sourceObjName>CODPROVINCIA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>MVIALES.T_PROVINCIAS_CODPROVINCIA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>T_PROVINCIAS_CODPROVINCIA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="CODPAIS" id="01C248E1-2AAE-DA47-866C-9589B6C2F12F">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROVINCIAS</sourceObjSchema>
+<sourceObjName>CODPAIS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>EEA6765E-B195-4104-59D1-FA32158F2280</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47451D44-0EFB-018F-FF56-75EA8B9EB19B" referredColumn="EEA6765E-B195-4104-59D1-FA32158F2280"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="3EAE9FDD-A1EE-B649-E865-32C37556C03C">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROVINCIAS</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2082C5DB-2085-2A3D-5AE8-7AB0F99AB8A7" name="T_PROVINCIAS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_PROVINCIAS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:24 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E7D6E98-CFC7-A082-1CB9-6BD8B83AB5E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30B62F76-B11F-B63B-CFFD-91DAB264695E" name="T_PROVINCIAS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_PROVINCIAS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E7D6E98-CFC7-A082-1CB9-6BD8B83AB5E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5056B881-0AE6-7CE8-8C39-158BAA09518F" name="FKT_PROVINCI451632">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01C248E1-2AAE-DA47-866C-9589B6C2F12F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,297 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0660332F-3282-D41F-0D38-732C7E942184" name="T_ARTICULOS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_ARTICULOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:15 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="B492BC08-E102-807A-18E3-C6474A8EB5DB">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_ARTICULOS</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="FAEC4259-1E12-9E1E-C0E5-ECAD7498F20C">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_ARTICULOS</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNDMEDIDA" id="DCDDC526-32D5-3D0B-A4DF-E50FFD81D505">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_ARTICULOS</sourceObjSchema>
+<sourceObjName>UNDMEDIDA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>0C839E04-5888-62F4-546F-F674022C8D57</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C18B78DE-692E-44F5-5A6B-E3B5F1E2297E" referredColumn="0C839E04-5888-62F4-546F-F674022C8D57"/>
+</associations>
+</Column>
+<Column name="CODMARCA" id="11C0B4E3-35FC-412F-56B5-BE561730182C">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_ARTICULOS</sourceObjSchema>
+<sourceObjName>CODMARCA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>6F095C2B-5D6E-A34C-91C0-C09938A2D039</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="610CBE2E-1F9E-D53A-478B-83E829F4EA01" referredColumn="6F095C2B-5D6E-A34C-91C0-C09938A2D039"/>
+</associations>
+</Column>
+<Column name="MODELO" id="2AE4E285-3086-CA98-84EC-B1F7D02F1823">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_ARTICULOS</sourceObjSchema>
+<sourceObjName>MODELO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECREGISTRO" id="1EB7AA64-006A-75A4-9F37-25E689F4708C">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_ARTICULOS</sourceObjSchema>
+<sourceObjName>FECREGISTRO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODFAMILIA" id="6E5C65A3-7CD3-7565-B64D-09CEDFADDEDF">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_ARTICULOS</sourceObjSchema>
+<sourceObjName>CODFAMILIA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>7458A2E5-1BD8-5F39-7CE5-034E5F31B456</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16412154-E84D-9D01-28E0-09FE6D9B52D5" referredColumn="7458A2E5-1BD8-5F39-7CE5-034E5F31B456"/>
+</associations>
+</Column>
+<Column name="CODESTARTICULO" id="895E55BD-F868-D7A5-F57C-B8416F264102">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_ARTICULOS</sourceObjSchema>
+<sourceObjName>CODESTARTICULO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>C38C8AA9-E8E2-9C54-0A22-8FD5318ADA24</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA1C6044-34AF-8EBB-9503-DB181128FD99" referredColumn="C38C8AA9-E8E2-9C54-0A22-8FD5318ADA24"/>
+</associations>
+</Column>
+<Column name="CODUSERREGISTRO" id="D1F650B6-C48B-95E8-781E-3A54A6A8707B">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_ARTICULOS</sourceObjSchema>
+<sourceObjName>CODUSERREGISTRO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<delegate>5CF3D718-AF04-B297-6925-EE28EB2F8079</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEDD75F6-CE21-04B7-5A05-44C0C83291A7" referredColumn="5CF3D718-AF04-B297-6925-EE28EB2F8079"/>
+</associations>
+</Column>
+<Column name="CANTIDAD" id="DF5D58D0-2021-38AB-1603-E9143C39D7A0">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_ARTICULOS</sourceObjSchema>
+<sourceObjName>CANTIDAD</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTMAXIMA" id="C1DAA6EE-33CB-7101-F007-779EA2D444D0">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_ARTICULOS</sourceObjSchema>
+<sourceObjName>CANTMAXIMA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTMINIMA" id="93765B67-4EE8-51E9-2976-8037E0C4DBCB">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_ARTICULOS</sourceObjSchema>
+<sourceObjName>CANTMINIMA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIOMERCDOLARES" id="C215B0F7-AC3E-BACC-F4DF-45EE65C13722">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_ARTICULOS</sourceObjSchema>
+<sourceObjName>PRECIOMERCDOLARES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>17</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAACTPRECIO" id="7F19AFA6-5326-B636-5432-200AEE6DC4D9">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_ARTICULOS</sourceObjSchema>
+<sourceObjName>FECHAACTPRECIO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B4F952D-94F0-8EAA-24B9-D4BA5AE0EBDE" name="T_ARTICULOS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_ARTICULOS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:17 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B492BC08-E102-807A-18E3-C6474A8EB5DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D209997-590A-3BEF-EA4F-05D85277B241" name="T_ARTICULOS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_ARTICULOS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B492BC08-E102-807A-18E3-C6474A8EB5DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6209D412-0C9F-2F65-2595-9E88CFA2C64B" name="FKT_ARTICULO570863">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCDDC526-32D5-3D0B-A4DF-E50FFD81D505"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9548493B-397F-BBE2-C85D-9A782395436E" name="FKT_ARTICULO578076">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1F650B6-C48B-95E8-781E-3A54A6A8707B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1AD1BD5-D33E-91A9-AACE-78657C9CAFEC" name="FKT_ARTICULO840016">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="895E55BD-F868-D7A5-F57C-B8416F264102"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FD3A6B3-7D8D-DAC8-D6BE-93BD320153A8" name="FKT_ARTICULO848891">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11C0B4E3-35FC-412F-56B5-BE561730182C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23863D9E-89BF-F9E0-8B1B-3B6ABE740324" name="FKT_ARTICULO904486">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E5C65A3-7CD3-7565-B64D-09CEDFADDEDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

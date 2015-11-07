@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="87BF7E84-0C86-C0BF-7D69-966D5122CD36" name="T ESTADOSTIPOCAMBIOS">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>67E0F8BE-8C04-0EB8-6F15-2F5BD64FABAD</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="D3C975A9-3FA1-0406-2825-91AAE36018E0">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>40D9F3EE-AF84-A239-E5F6-DF7CF99167CB</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+<Attribute name="NOMBRE" id="F51B333E-89C6-F286-6687-DCFBABF99E41">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>A162B05F-D7A0-5F8A-275B-5889BF41B658</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E67FF51-5B8C-5988-EA9F-134588EC9BC0" name="T ESTADOSTIPOCAMBIOS PK">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>63FF5BBB-3D9C-AAD9-E5C9-AC0B9D893363</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3C975A9-3FA1-0406-2825-91AAE36018E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

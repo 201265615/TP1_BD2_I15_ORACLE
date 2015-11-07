@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_LISTAPRECIOS" directorySegmentName="seg_0" id="714F1E1B-1074-D92D-1018-1E307160A8DE">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:21 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>212AB185-D011-1B1F-6F0B-E9F805C1342F</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_LISTAPRECIOS_PK" id="A8F1407B-1FCB-D0B4-2563-BAFB47C60F00">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<segment>4B92CD08-D037-884B-2EC8-34D949C35146</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO" id="0787664C-C77A-3E80-11E8-175A5DAE7F38">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="GASTOADMIN" id="1C2B1652-A83B-75B5-0504-FFF8AD67D3C8">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UTILIDAD" id="819381F8-A726-F4FC-D45B-4DEECE7EEC9C">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="D4F4AB24-C77C-BF87-9483-633885A55145">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GASTOOTROS" id="FBCE4F19-E30E-801F-15C8-73F4F97E8645">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_LISTAPRECIOS_PK" id="55431275-4B9F-C80B-32A6-4A76CCFA38A9">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:24 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<segment>4B92CD08-D037-884B-2EC8-34D949C35146</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+<existingIndex>A8F1407B-1FCB-D0B4-2563-BAFB47C60F00</existingIndex>
+<indexSegment>4B92CD08-D037-884B-2EC8-34D949C35146</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

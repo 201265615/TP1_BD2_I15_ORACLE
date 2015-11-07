@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_UNIDADMEDIDAS_CODIGO_TRG" directorySegmentName="seg_0" id="F5EFE37E-BD36-B9EE-8655-2D70B3159DC0">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_UNIDADMEDIDAS_CODIGO_TRG</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN :NEW.CODIGO := MVIALES.T_UNIDADMEDIDAS_CODIGO_SEQ.NEXTVAL;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>NEW.CODIGO IS NULL</condition>
+<owner>3919DA2A-C451-AB45-1584-FB489057BDD4</owner>
+<table>FB6EE781-F9A8-DFCE-AC02-EB574ADA5913</table>
+</TriggerOraclev10g>

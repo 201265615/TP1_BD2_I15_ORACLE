@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="468A9D44-5A58-BA94-C095-59784E1694D5" mainViewID="B7392FD6-E8BE-B207-6107-84ADA4EEA12D">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 00:57:38 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

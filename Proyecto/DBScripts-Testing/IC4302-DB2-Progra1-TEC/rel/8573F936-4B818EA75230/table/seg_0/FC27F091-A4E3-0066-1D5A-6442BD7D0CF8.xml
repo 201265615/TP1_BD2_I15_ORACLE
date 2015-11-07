@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC27F091-A4E3-0066-1D5A-6442BD7D0CF8" name="T_COMPONENTES">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_COMPONENTES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:15 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODCOMPONENTE" id="FDA35C4D-13BC-41C7-5942-B91767972A86">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COMPONENTES</sourceObjSchema>
+<sourceObjName>CODCOMPONENTE</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>B492BC08-E102-807A-18E3-C6474A8EB5DB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B075ECF-8A68-62A4-FCD3-BD524203F2DA" referredColumn="B492BC08-E102-807A-18E3-C6474A8EB5DB"/>
+</associations>
+</Column>
+<Column name="CODARTICULO" id="30520E20-8830-D608-6A6C-228CAF3537CB">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COMPONENTES</sourceObjSchema>
+<sourceObjName>CODARTICULO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>B492BC08-E102-807A-18E3-C6474A8EB5DB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32FEB21F-C884-ADF6-152A-1974F50461C8" referredColumn="B492BC08-E102-807A-18E3-C6474A8EB5DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="738B1D72-9526-EC62-9141-5AFEDFC07B63" name="FKT_COMPONEN233783">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDA35C4D-13BC-41C7-5942-B91767972A86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E42E675-0D01-4B97-54BD-3EAC7F1AF23B" name="FKT_COMPONEN774059">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30520E20-8830-D608-6A6C-228CAF3537CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

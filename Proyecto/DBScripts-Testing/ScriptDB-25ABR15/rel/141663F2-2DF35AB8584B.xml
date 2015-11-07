@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="oraserveri-proyectopdb-mviales" id="141663F2-7FD3-694B-E449-2DF35AB8584B" mainViewID="6D16C264-57FC-10D6-688D-204E82E0DD55">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:13 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>oraserveri-proyectopdb-mviales</connName>
+<connUrl>jdbc:oracle:thin:@172.19.127.101:1521/proyectopdb</connUrl>
+<connUser>mviales</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_ESTADOSTIPOCAMBIOS_CODIGO" directorySegmentName="seg_0" id="2A7BF7CB-2E8D-034C-2FDD-79408F10B272">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_ESTADOSTIPOCAMBIOS_CODIGO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN :NEW.CODIGO := MVIALES.T_ESTADOSTIPOCAMBIOS_CODIGO.NEXTVAL;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>NEW.CODIGO IS NULL</condition>
+<owner>3919DA2A-C451-AB45-1584-FB489057BDD4</owner>
+<table>87FBDDBF-CC8E-A75B-3AB7-B3D84264D566</table>
+</TriggerOraclev10g>

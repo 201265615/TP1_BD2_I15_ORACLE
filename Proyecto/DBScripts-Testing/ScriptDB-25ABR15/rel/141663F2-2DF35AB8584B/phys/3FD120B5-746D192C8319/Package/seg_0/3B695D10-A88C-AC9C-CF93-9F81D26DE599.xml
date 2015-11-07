@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<PackageOracle class="oracle.dbtools.crest.model.design.storage.oracle.PackageOracle" name="WSPLSQL_PLSQL_WRAPPER" directorySegmentName="seg_0" id="3B695D10-A88C-AC9C-CF93-9F81D26DE599">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>WSPLSQL_PLSQL_WRAPPER</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:30 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<owner>3919DA2A-C451-AB45-1584-FB489057BDD4</owner>
+<source>CREATE OR REPLACE PACKAGE MVIALES.WSPLSQL_PLSQL_WRAPPER AS&lt;br/&gt;-- Declare the conversion functions the PL/SQL type PKG_ARTICULO.RECARTICULO&lt;br/&gt;FUNCTION PL_TO_SQL0(aPlsqlItem PKG_ARTICULO.RECARTICULO)&lt;br/&gt;RETURN WSPLSQL_RECARTICULO;&lt;br/&gt;FUNCTION SQL_TO_PL0(aSqlItem WSPLSQL_RECARTICULO)&lt;br/&gt;RETURN PKG_ARTICULO.RECARTICULO;&lt;br/&gt;END WSPLSQL_plsql_wrapper;</source>
+<body class="oracle.dbtools.crest.model.design.storage.oracle.PackageBodyOracle" name="WSPLSQL_PLSQL_WRAPPER" id="3B695D10-A88C-AC9C-CF93-9F81D26DE599">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>WSPLSQL_PLSQL_WRAPPER</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:30 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<owner>3919DA2A-C451-AB45-1584-FB489057BDD4</owner>
+<source>CREATE OR REPLACE PACKAGE BODY MVIALES.WSPLSQL_PLSQL_WRAPPER IS&lt;br/&gt;FUNCTION PL_TO_SQL0(aPlsqlItem PKG_ARTICULO.RECARTICULO)&lt;br/&gt;RETURN WSPLSQL_RECARTICULO IS&lt;br/&gt;aSqlItem WSPLSQL_RECARTICULO;&lt;br/&gt;BEGIN&lt;br/&gt;-- initialize the object&lt;br/&gt;aSqlItem := WSPLSQL_RECARTICULO(NULL, NULL);&lt;br/&gt;aSqlItem.CODIGO := aPlsqlItem.CODIGO;&lt;br/&gt;aSqlItem.DESCRIPCION := aPlsqlItem.DESCRIPCION;&lt;br/&gt;RETURN aSqlItem;&lt;br/&gt;END PL_TO_SQL0;&lt;br/&gt;FUNCTION SQL_TO_PL0(aSqlItem WSPLSQL_RECARTICULO)&lt;br/&gt;RETURN PKG_ARTICULO.RECARTICULO IS&lt;br/&gt;aPlsqlItem PKG_ARTICULO.RECARTICULO;&lt;br/&gt;BEGIN&lt;br/&gt;aPlsqlItem.CODIGO := aSqlItem.CODIGO;&lt;br/&gt;aPlsqlItem.DESCRIPCION := aSqlItem.DESCRIPCION;&lt;br/&gt;RETURN aPlsqlItem;&lt;br/&gt;END SQL_TO_PL0;&lt;br/&gt;END WSPLSQL_plsql_wrapper;</source>
+</body>
+</PackageOracle>

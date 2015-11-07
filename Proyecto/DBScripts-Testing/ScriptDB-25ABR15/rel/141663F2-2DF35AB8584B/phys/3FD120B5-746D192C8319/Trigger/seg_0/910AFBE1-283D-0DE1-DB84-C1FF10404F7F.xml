@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BEF_DEL_COTIZ_INS_HISTO" directorySegmentName="seg_0" id="910AFBE1-283D-0DE1-DB84-C1FF10404F7F">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>BEF_DEL_COTIZ_INS_HISTO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<actions>DELETE</actions>
+<body>Declare&lt;br/&gt;  -- Seleccionar las filas de la cotizacion&lt;br/&gt;  cursor cursorArticulos is select numCotizacion,codArticulo,undMedida,cantidad,porcenDescuento,costoUnitario,costoGrabado,montoLinea &lt;br/&gt;  from T_ArticulosCotizados where numCotizacion = :Old.numero;&lt;br/&gt;  -- Variables de cada fila&lt;br/&gt;  Var_numCotizacion number(10);&lt;br/&gt;  Var_codArticulo varchar(20);&lt;br/&gt;  Var_undMedida number(3);&lt;br/&gt;  Var_cantidad number(10);&lt;br/&gt;  Var_porcenDescuento number(2);&lt;br/&gt;  Var_costoUnitario number(17,2);&lt;br/&gt;  Var_costoGrabado number(17,2);&lt;br/&gt;  Var_montoLinea number(17,2);&lt;br/&gt;begin&lt;br/&gt;  -- Verificar estado emitida&lt;br/&gt;  if (:OLD.codEstadoCotiz = 1) then&lt;br/&gt;    -- Abrir cursor&lt;br/&gt;    open cursorArticulos;&lt;br/&gt;    loop&lt;br/&gt;      -- Recorre filas&lt;br/&gt;      fetch cursorArticulos into &lt;br/&gt;      Var_numCotizacion,&lt;br/&gt;      Var_codArticulo,&lt;br/&gt;      Var_undMedida,&lt;br/&gt;      Var_cantidad,&lt;br/&gt;      Var_porcenDescuento,&lt;br/&gt;      Var_costoUnitario,&lt;br/&gt;      Var_costoGrabado,&lt;br/&gt;      Var_montoLinea;&lt;br/&gt;      -- Guardar las filas en historico&lt;br/&gt;         Insert into T_ArticulosCotizadosHisto values (Var_numCotizacion,Var_codArticulo,Var_undMedida,Var_cantidad,Var_porcenDescuento,Var_costoUnitario,Var_costoGrabado,Var_montoLinea);&lt;br/&gt;     exit when cursorArticulos %notfound;&lt;br/&gt;    end loop;&lt;br/&gt;    close cursorArticulos;&lt;br/&gt;    commit;&lt;br/&gt;    -- guardar datos de la cotizacion&lt;br/&gt;    Insert into T_CotizacionesHisto values (:OLD.numero,:OLD.fecRegistro,:OLD.cedJurCliente,:OLD.condicionPago,:OLD.condicionVenta,:OLD.vigencia,:OLD.Observaciones,:OLD.codMoneda,:OLD.codEstadoCotiz,:OLD.codListaPrecios,:OLD.mesEntreg,:OLD.anioEntreg);&lt;br/&gt;    -- Registar evento en bitacora&lt;br/&gt;    Insert into T_Bitacora values (15,1,3,SYSDATE);&lt;br/&gt;  end if;&lt;br/&gt;end;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>3919DA2A-C451-AB45-1584-FB489057BDD4</owner>
+<table>7968E8FB-F810-EF24-F2F7-B2741EB8E305</table>
+</TriggerOraclev10g>

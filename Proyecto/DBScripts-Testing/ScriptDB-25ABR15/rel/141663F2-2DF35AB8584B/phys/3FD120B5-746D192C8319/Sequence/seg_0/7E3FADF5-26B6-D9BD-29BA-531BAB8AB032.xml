@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="T_ESTADOSTIPOCAMBIOS_CODIGO" directorySegmentName="seg_0" id="7E3FADF5-26B6-D9BD-29BA-531BAB8AB032">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_ESTADOSTIPOCAMBIOS_CODIGO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:15 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<incrementBy>1</incrementBy>
+<maxValue>9999999999999999999999999999</maxValue>
+<minValue>1</minValue>
+<noCache>YES</noCache>
+<order>YES</order>
+<user>3919DA2A-C451-AB45-1584-FB489057BDD4</user>
+</SequenceOraclev10g>

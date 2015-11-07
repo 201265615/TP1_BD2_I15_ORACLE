@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="AD47BCA0-3DE0-C95C-A2AB-A386C321D8EC" name="oraserveri-proyectopdb-mviales" visible="false"/>
+   <object objectType="sub_view" objectID="B995EFF1-36E8-1055-717D-6314A317A148" name="oraserveri-proyectopdb-mviales - SubView_1" visible="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

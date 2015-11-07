@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="SP" directorySegmentName="seg_0" id="658D859B-4C92-3347-11E5-673B667A0DF0">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>SP</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:30 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<owner>3919DA2A-C451-AB45-1584-FB489057BDD4</owner>
+<source>CREATE OR REPLACE FUNCTION MVIALES.SP(X IN NUMBER)&lt;br/&gt;    RETURN types.ref_cursor&lt;br/&gt;AS&lt;br/&gt;    cursorArt types.ref_cursor;&lt;br/&gt;BEGIN&lt;br/&gt;    OPEN cursorArt FOR &lt;br/&gt;        SELECT descripcion FROM t_articulos;&lt;br/&gt;    RETURN cursorArt;&lt;br/&gt;END SP;</source>
+</FunctionOracle>

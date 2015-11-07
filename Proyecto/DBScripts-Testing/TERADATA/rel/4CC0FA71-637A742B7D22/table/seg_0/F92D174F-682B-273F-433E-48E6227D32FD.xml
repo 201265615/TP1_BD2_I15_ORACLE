@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F92D174F-682B-273F-433E-48E6227D32FD" name="T_FAMILIAS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_FAMILIAS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="7200D31D-B6E9-06FD-A559-BDC19519F2BB">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_FAMILIAS</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>MVIALES.T_FAMILIAS_CODIGO_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>T_FAMILIAS_CODIGO_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="DESCRIPCION" id="232A4790-CBBB-41E3-6A14-D616F1BDD938">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_FAMILIAS</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PORCIMPACOMPRA" id="8BEB96B9-67D3-EEA8-7423-45AA737A8B8A">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_FAMILIAS</sourceObjSchema>
+<sourceObjName>PORCIMPACOMPRA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODINDICEECONOMICO" id="C1AAEC43-1A4B-ECE5-606E-B712B5C86EDC">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_FAMILIAS</sourceObjSchema>
+<sourceObjName>CODINDICEECONOMICO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>BA470A5B-3FE2-883A-082F-498E2092B3AE</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F809450F-0B11-5C0D-4BE0-DECACC2578EB" referredColumn="BA470A5B-3FE2-883A-082F-498E2092B3AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB3BA88D-B898-D23D-C283-FDC4A26341B1" name="T_FAMILIAS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_FAMILIAS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:49 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7200D31D-B6E9-06FD-A559-BDC19519F2BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4E50351-DE28-1E25-A285-C3CB2A664130" name="T_FAMILIAS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_FAMILIAS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7200D31D-B6E9-06FD-A559-BDC19519F2BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2325DCD-BC8C-8BD4-1AF0-26D74D379C2D" name="T_FAMILIAS_T_INDICEECONOMICOS_FK">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:43:35 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1AAEC43-1A4B-ECE5-606E-B712B5C86EDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

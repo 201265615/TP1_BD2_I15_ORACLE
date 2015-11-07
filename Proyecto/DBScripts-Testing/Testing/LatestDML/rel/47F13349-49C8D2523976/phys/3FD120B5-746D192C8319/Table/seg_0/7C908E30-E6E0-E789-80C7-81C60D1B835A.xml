@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_ARTICULOS" directorySegmentName="seg_0" id="7C908E30-E6E0-E789-80C7-81C60D1B835A">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:21 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>212AB185-D011-1B1F-6F0B-E9F805C1342F</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_ARTICULOS_PK" id="9A0521C0-5BB2-E121-4E46-8828343FFC2C">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<segment>4B92CD08-D037-884B-2EC8-34D949C35146</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECREGISTRO" id="0D7FDEEF-B7AA-E36A-33D7-4A007625C4B3">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODFAMILIA" id="27527CB8-F09A-C9B6-81E8-AFC8900C08AA">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODUSERREGISTRO" id="3615663E-824E-8F55-E8F7-9B4D3EAABC73">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO" id="388C8D62-5EC3-9F39-F843-27E540E48EF8">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="3FF7B45E-74AA-2EA0-6B0C-067EA91111FD">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAACTPRECIO" id="51C69C90-6A70-9A39-B58E-C7E77D59490B">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTMINIMA" id="53C8FFDB-6BB4-9530-9C7C-53AF1DDE0246">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODMARCA" id="8E694B3B-2F3B-FA0E-28F1-6E26EA50037D">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTMAXIMA" id="8F2F9E6D-035D-C55F-4102-66C2100A4E13">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRECIOMERCDOLARES" id="A9193B4D-EEF9-0D52-0ECF-4AF7DB0AA07D">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODESTARTICULO" id="B13773DA-1E05-0C41-3814-9950F7B9D9DA">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNDMEDIDA" id="DBD344F7-2D22-E5A8-7A11-FC157CAD17C7">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTIDAD" id="E774D744-AC67-204F-DDC6-928CE36878B9">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODELO" id="EBA36F9A-AD06-6DE8-CFFB-57CCA139F443">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO578076" id="06CAF1C2-027C-5F16-340A-22562B402255">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO840016" id="12FAE2EE-708B-A215-BA95-42CF568DA176">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO848891" id="3D52621A-6931-FE46-77C0-8680729B0D0D">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO904486" id="A48D548B-08A3-EBE7-B906-6D205D99C589">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO570863" id="C383910F-FAD8-12B7-A268-B0E721CCC35D">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_ARTICULOS_PK" id="FDEEE8C0-44EE-3134-91D4-5F71E41036CE">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:23 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<segment>4B92CD08-D037-884B-2EC8-34D949C35146</segment>
+<tableSpace>864CC068-0ED1-08B5-FE2B-520931C4EA88</tableSpace>
+<existingIndex>9A0521C0-5BB2-E121-4E46-8828343FFC2C</existingIndex>
+<indexSegment>4B92CD08-D037-884B-2EC8-34D949C35146</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MVIALES" directorySegmentName="seg_0" id="3919DA2A-C451-AB45-1584-FB489057BDD4">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjName>MVIALES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:14 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<defTableSpace>7FAEE358-1396-42E0-1F5B-D33E8C413CD4</defTableSpace>
+<privileges>CREATE TRIGGER, CREATE VIEW, CREATE TABLE</privileges>
+<roles>8C95FF6C-ED1E-7747-5897-0A4F47CC9B14, 7A299372-C460-3AE7-EE26-4D1BF17793FC</roles>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="F7A377A8-FEDE-0E74-61A9-C908D6D087BA">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:14 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<size>52428800</size>
+<tableSpace>7FAEE358-1396-42E0-1F5B-D33E8C413CD4</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

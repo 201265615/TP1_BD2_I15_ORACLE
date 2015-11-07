@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3627546F-BC5D-3259-8DD2-135E6E510152" name="T_TIPOERRORES">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOERRORES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="04D8ADEA-0523-3498-79BD-43B604153392">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOERRORES</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>MVIALES.T_TIPOERRORES_CODIGO_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>T_TIPOERRORES_CODIGO_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="DESCRIPCION" id="2D60DB5A-0603-512E-4627-82FF67435F8F">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOERRORES</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76AA1A35-D200-3F75-6995-F93962205420" name="T_TIPOERRORES_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOERRORES_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:49 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04D8ADEA-0523-3498-79BD-43B604153392"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FE1F3F9-1554-12B8-7937-E5CB6DA73DFD" name="T_TIPOERRORES_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOERRORES_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:48 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04D8ADEA-0523-3498-79BD-43B604153392"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

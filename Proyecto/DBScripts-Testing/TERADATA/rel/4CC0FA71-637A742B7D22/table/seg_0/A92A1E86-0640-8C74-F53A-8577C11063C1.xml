@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A92A1E86-0640-8C74-F53A-8577C11063C1" name="T_TIPOCAMBIOS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOCAMBIOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODMONEDA1" id="BA910203-4666-C17C-7565-2766B4D25565">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>CODMONEDA1</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>BCCAD068-1C39-9B49-85DB-F898B1D7D5AA</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED481658-AECD-0AA3-F9C4-DA65BD04E004" referredColumn="BCCAD068-1C39-9B49-85DB-F898B1D7D5AA"/>
+</associations>
+</Column>
+<Column name="CODMONEDA2" id="264B2166-6B74-AF12-FB6F-F610FAE08B59">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>CODMONEDA2</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>BCCAD068-1C39-9B49-85DB-F898B1D7D5AA</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8B7A6A8-9959-811B-9B3C-8D7CDF042036" referredColumn="BCCAD068-1C39-9B49-85DB-F898B1D7D5AA"/>
+</associations>
+</Column>
+<Column name="MONTO" id="BB0C6660-2393-0EA4-BB51-2540FF00CA46">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>MONTO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>17</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODINDICEECONOMICO" id="E21C373A-492F-65D3-4835-B354D6F8D6B4">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>CODINDICEECONOMICO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>BA470A5B-3FE2-883A-082F-498E2092B3AE</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="206C4D66-4F6D-4F86-DEBC-9E7676048782" referredColumn="BA470A5B-3FE2-883A-082F-498E2092B3AE"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="E93975E8-399C-B249-D1CB-EAFA7114E7C8">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>6C7E4324-F874-10AA-23D9-862728BF0D94</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6B8D486-7C6A-E899-178A-1116FFEE1032" referredColumn="6C7E4324-F874-10AA-23D9-862728BF0D94"/>
+</associations>
+</Column>
+<Column name="MES" id="2BA0A7E6-B3FB-2AB1-1FFF-29EE3D76DDD1">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>MES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>EA5F9219-5A54-9BC5-2EE1-8A64CD4FE4DA</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="683E6F86-8DBE-BD90-7EBC-81C5E7EEDF89" referredColumn="EA5F9219-5A54-9BC5-2EE1-8A64CD4FE4DA"/>
+</associations>
+</Column>
+<Column name="ANIO" id="20F81E39-5A74-EB86-583B-EE23AACFB6DE">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>ANIO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<delegate>13749C10-4DA8-2448-2518-EBAFF12963CB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="683E6F86-8DBE-BD90-7EBC-81C5E7EEDF89" referredColumn="13749C10-4DA8-2448-2518-EBAFF12963CB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60DEDC9F-66E7-F702-2388-9F94E28681B3" name="FKT_TIPOCAMB620100">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA910203-4666-C17C-7565-2766B4D25565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D3D7A2B-88A2-D27F-A75D-F8B6BE888A59" name="FKT_TIPOCAMB620101">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="264B2166-6B74-AF12-FB6F-F610FAE08B59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AC5D33D-6765-6B4D-92A9-9545FECDAE9D" name="FKT_TIPOCAMB651026">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E93975E8-399C-B249-D1CB-EAFA7114E7C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FE49EEC-0E81-0466-6FE8-E5644548884E" name="FKT_TIPOCAMB923514">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BA0A7E6-B3FB-2AB1-1FFF-29EE3D76DDD1"/>
+<colUsage columnID="20F81E39-5A74-EB86-583B-EE23AACFB6DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB521477-8C79-9FDE-5D17-B2AD6299D24F" name="T_TIPOCAMBIOS_T_INDICEECONOMICOS_FK">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:43:58 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E21C373A-492F-65D3-4835-B354D6F8D6B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

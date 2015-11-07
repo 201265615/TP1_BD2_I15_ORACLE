@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3138B1A-A995-9091-8547-80E43382DFBD" name="T_LISTAPRECIOXARTICULOS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_LISTAPRECIOXARTICULOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:21 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODLISTAPRECIO" id="A1013F0E-8D78-92EA-1060-5D43BC891F52">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_LISTAPRECIOXARTICULOS</sourceObjSchema>
+<sourceObjName>CODLISTAPRECIO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>0787664C-C77A-3E80-11E8-175A5DAE7F38</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8225763-2B5F-7ECC-8A12-A530923D10B6" referredColumn="0787664C-C77A-3E80-11E8-175A5DAE7F38"/>
+</associations>
+</Column>
+<Column name="CODARTICULO" id="1F0FE309-0847-FAC5-71FF-BAEEF983476D">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_LISTAPRECIOXARTICULOS</sourceObjSchema>
+<sourceObjName>CODARTICULO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>388C8D62-5EC3-9F39-F843-27E540E48EF8</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAD96395-AD68-C0B2-BC72-ED245AA2AC5C" referredColumn="388C8D62-5EC3-9F39-F843-27E540E48EF8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87E5F0EA-F94A-A139-F5CC-34F1934FF05B" name="T_LISTAPRECIOXARTICULOS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_LISTAPRECIOXARTICULOS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:24 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1013F0E-8D78-92EA-1060-5D43BC891F52"/>
+<colUsage columnID="1F0FE309-0847-FAC5-71FF-BAEEF983476D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76A6AB2F-B9EA-82DA-891E-C9C264C80F6E" name="T_LISTAPRECIOXARTICULOS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_LISTAPRECIOXARTICULOS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1013F0E-8D78-92EA-1060-5D43BC891F52"/>
+<colUsage columnID="1F0FE309-0847-FAC5-71FF-BAEEF983476D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B7A6C8B-8BC9-16E2-F938-FBA70C071854" name="FKT_LISTAPRE160880">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F0FE309-0847-FAC5-71FF-BAEEF983476D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2725B1A-7B43-22D3-A31A-09CB102BA830" name="FKT_LISTAPRE78013">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1013F0E-8D78-92EA-1060-5D43BC891F52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

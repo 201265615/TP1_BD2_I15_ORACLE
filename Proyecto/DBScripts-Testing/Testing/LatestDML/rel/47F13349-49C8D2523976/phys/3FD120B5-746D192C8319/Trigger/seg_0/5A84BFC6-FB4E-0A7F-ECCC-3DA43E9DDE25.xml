@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_DETALLEDIRECCION_CODDETALLE" directorySegmentName="seg_0" id="5A84BFC6-FB4E-0A7F-ECCC-3DA43E9DDE25">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_DETALLEDIRECCION_CODDETALLE</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN :NEW.CODDETALLE := MVIALES.T_DETALLEDIRECCION_CODDETALLE.NEXTVAL;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>NEW.CODDETALLE IS NULL</condition>
+<owner>74339565-964E-63C8-A400-20171FFF8C36</owner>
+<table>2A0FA9F0-D2F6-D2FC-40F5-DA99E43E5874</table>
+</TriggerOraclev10g>

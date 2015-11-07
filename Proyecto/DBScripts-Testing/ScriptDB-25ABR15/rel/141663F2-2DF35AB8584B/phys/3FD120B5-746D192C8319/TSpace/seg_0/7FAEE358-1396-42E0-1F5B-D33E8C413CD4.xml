@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="PROYECTO" directorySegmentName="seg_0" id="7FAEE358-1396-42E0-1F5B-D33E8C413CD4">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjName>PROYECTO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:13 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<dsInitialExtent>1048576</dsInitialExtent>
+<dsMaxExtents>2147483645</dsMaxExtents>
+<dsNextExtent>1048576</dsNextExtent>
+<emLocalSubtype>UNIFORM</emLocalSubtype>
+<emUniformSize>1048576</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+<minExtLen>1048576</minExtLen>
+<dsCompression>NOCOMPRESS</dsCompression>
+<fileType>SMALLFILE</fileType>
+</TableSpaceOraclev10g>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE1707F3-74F2-E54B-84B5-7F7948C6418C" name="T_CUIDADES">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_CUIDADES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODCIUDAD" id="12269679-9ADD-AFA9-10BD-7DBC8EB32D7C">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_CUIDADES</sourceObjSchema>
+<sourceObjName>CODCIUDAD</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>MVIALES.T_CUIDADES_CODCIUDAD_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>T_CUIDADES_CODCIUDAD_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="CODPROVINCIA" id="2A294F99-28BB-ABEA-0DE4-BBD672BF2CA2">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_CUIDADES</sourceObjSchema>
+<sourceObjName>CODPROVINCIA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>0F8AB277-0999-68B2-0F29-92D6D265454F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34A853E0-8FF7-513D-0888-3ACE3A9589BD" referredColumn="0F8AB277-0999-68B2-0F29-92D6D265454F"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="E007AEA7-A7E9-AA0E-766E-C6D1DF840DBF">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_CUIDADES</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB8CA7F9-7C35-1FD7-6359-5C2CDAA33180" name="T_CUIDADES_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_CUIDADES_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:48 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12269679-9ADD-AFA9-10BD-7DBC8EB32D7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76374341-EF31-929D-1617-7E19EDD9DFC4" name="T_CUIDADES_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_CUIDADES_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12269679-9ADD-AFA9-10BD-7DBC8EB32D7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14322BDC-F28F-DA5A-AE3D-3247A0ED316C" name="FKT_CUIDADES473810">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A294F99-28BB-ABEA-0DE4-BBD672BF2CA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

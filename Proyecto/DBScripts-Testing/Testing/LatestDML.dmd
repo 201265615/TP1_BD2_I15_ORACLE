@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="LatestDML" id="1DD96FDD-4AEC-C24E-3920-BE8D353C1983" version="3.5">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 00:57:38 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1DD96FDD-4AEC-C24E-3920-BE8D353C1983</designId>
+</OSDM_Design>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C887A49A-C584-958F-A8C1-8029C87D89FF" name="T LISTAPRECIOXARTICULOS">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>8469D92D-90FA-9928-D0B9-BA5B71B9D9C2</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODLISTAPRECIO" id="B9D2DD5B-307A-B0DC-4BDD-F634934C72CC">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>22127814-95A5-81D8-645D-0092439FDC52</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<referedAttribute>423DA991-DC70-60B3-ADE4-AE352A9F4916</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+<Attribute name="CODARTICULO" id="38E2D232-D18B-8E73-0759-E2AF595642E0">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>AE72FC06-8ABF-70BA-ADEC-F6A82CB0E305</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<referedAttribute>36D61818-4C7E-A354-915B-3E540D1CB8F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1667BF21-9B28-08BF-973D-CAC95F6495E1" name="T LISTAPRECIOXARTICULOS PK">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:24 UTC</createdTime>
+<generatorID>96621DFE-3B36-A47A-C39E-4482BB914D63</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B9D2DD5B-307A-B0DC-4BDD-F634934C72CC</attributeRef>
+<attributeRef>38E2D232-D18B-8E73-0759-E2AF595642E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

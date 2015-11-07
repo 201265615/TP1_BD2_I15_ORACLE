@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D6D1819-9E07-0AD4-6ECE-8B013F96833D" name="T_BITACORA">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_BITACORA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:21 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="CF384B35-A69E-0DB6-5A1E-8EFA106B2FAC">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_BITACORA</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>MVIALES.T_BITACORA_CODIGO_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>T_BITACORA_CODIGO_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="CODUSER" id="0B8BFFBC-20E1-E799-CAD7-FF54FCF19B3E">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_BITACORA</sourceObjSchema>
+<sourceObjName>CODUSER</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<delegate>878ABD8A-563E-1391-83A8-8657A4FF4080</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83A52A43-C44F-87CD-9EEC-68ACA71A776E" referredColumn="878ABD8A-563E-1391-83A8-8657A4FF4080"/>
+</associations>
+</Column>
+<Column name="CODTIPOERROR" id="5CDF3195-B4CB-51E7-DA9B-728EAB9784AF">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_BITACORA</sourceObjSchema>
+<sourceObjName>CODTIPOERROR</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>489D58FC-11CD-C05A-BB5C-01FC49AD6FDF</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F62BF8FE-F212-C15C-074C-5B8D4620C955" referredColumn="489D58FC-11CD-C05A-BB5C-01FC49AD6FDF"/>
+</associations>
+</Column>
+<Column name="FECHAHORA" id="7AF8419E-516E-9B3A-F6D9-3396391CA8ED">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_BITACORA</sourceObjSchema>
+<sourceObjName>FECHAHORA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="941E712F-DA30-28CA-5E90-4E2D42EF39F2" name="T_BITACORA_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_BITACORA_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:23 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF384B35-A69E-0DB6-5A1E-8EFA106B2FAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80E5130E-22CC-B09C-5452-C47A610AB693" name="T_BITACORA_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_BITACORA_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:22 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>CF9D8938-FA4D-9DF8-8CDE-F492E3BF9165</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF384B35-A69E-0DB6-5A1E-8EFA106B2FAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7C338B9-1974-B49D-A8A9-1B9706D79CDF" name="FKT_BITACORA251134">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CDF3195-B4CB-51E7-DA9B-728EAB9784AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47F5FEBA-EC5F-BE91-C5D8-D3B803C670D4" name="FKT_BITACORA84906">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B8BFFBC-20E1-E799-CAD7-FF54FCF19B3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

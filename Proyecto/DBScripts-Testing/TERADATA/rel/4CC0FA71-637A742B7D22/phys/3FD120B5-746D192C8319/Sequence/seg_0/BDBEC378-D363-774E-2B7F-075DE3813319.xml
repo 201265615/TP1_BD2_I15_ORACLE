@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="T_PROVINCIAS_CODPROVINCIA_SEQ" directorySegmentName="seg_0" id="BDBEC378-D363-774E-2B7F-075DE3813319">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_PROVINCIAS_CODPROVINCIA_SEQ</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:45 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<incrementBy>1</incrementBy>
+<maxValue>9999999999999999999999999999</maxValue>
+<minValue>1</minValue>
+<noCache>YES</noCache>
+<order>YES</order>
+<user>289D7103-DDDA-C9FA-6967-16036284FC5F</user>
+</SequenceOraclev10g>

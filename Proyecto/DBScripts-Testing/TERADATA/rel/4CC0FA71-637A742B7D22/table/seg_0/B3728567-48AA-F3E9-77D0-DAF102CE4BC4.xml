@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3728567-48AA-F3E9-77D0-DAF102CE4BC4" name="T_LISTAPRECIOXARTICULOS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_LISTAPRECIOXARTICULOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODLISTAPRECIO" id="B70593E8-97B6-D21D-BEE5-9E730BD5528E">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_LISTAPRECIOXARTICULOS</sourceObjSchema>
+<sourceObjName>CODLISTAPRECIO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>9C98D04A-B33E-C2D4-BBD6-8E1F9A70B12C</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07A1A7C0-42D1-0DF5-8C0A-01F3A79A6DD2" referredColumn="9C98D04A-B33E-C2D4-BBD6-8E1F9A70B12C"/>
+</associations>
+</Column>
+<Column name="CODARTICULO" id="51F8C560-EA80-3C87-0860-FA294BEBB790">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_LISTAPRECIOXARTICULOS</sourceObjSchema>
+<sourceObjName>CODARTICULO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>5A1BD462-5319-8875-D6AB-12FB3A24299A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CD3A61D-B622-CD7F-DE62-10743E94F74F" referredColumn="5A1BD462-5319-8875-D6AB-12FB3A24299A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AABBC0E-95DE-54B0-2472-1FF19DA7D6C7" name="T_LISTAPRECIOXARTICULOS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_LISTAPRECIOXARTICULOS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:49 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B70593E8-97B6-D21D-BEE5-9E730BD5528E"/>
+<colUsage columnID="51F8C560-EA80-3C87-0860-FA294BEBB790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6B6FCB1-6CF8-61C5-4C1F-1EE4A1E25E02" name="T_LISTAPRECIOXARTICULOS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_LISTAPRECIOXARTICULOS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:48 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B70593E8-97B6-D21D-BEE5-9E730BD5528E"/>
+<colUsage columnID="51F8C560-EA80-3C87-0860-FA294BEBB790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBC9D6C3-F4D4-EEED-FAB3-1F26AE9293C2" name="FKT_LISTAPRE160880">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51F8C560-EA80-3C87-0860-FA294BEBB790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BE795EA-46FA-DB28-2753-69EDD70A1602" name="FKT_LISTAPRE78013">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B70593E8-97B6-D21D-BEE5-9E730BD5528E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="oraserveri-proyectopdb-mviales" id="4CC0FA71-92CB-88DB-6102-637A742B7D22" mainViewID="A7C75DD9-418E-D6D6-8372-954E9B34D7B3">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:45 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>oraserveri-proyectopdb-mviales</connName>
+<connUrl>jdbc:oracle:thin:@172.19.127.101:1521/proyectopdb</connUrl>
+<connUser>mviales</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

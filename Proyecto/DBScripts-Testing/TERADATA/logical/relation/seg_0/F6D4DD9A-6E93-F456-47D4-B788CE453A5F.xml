@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_FAMILIAS_T_INDICEECONOMICOS_FK" directorySegmentName="seg_0" id="F6D4DD9A-6E93-F456-47D4-B788CE453A5F">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>F809450F-0B11-5C0D-4BE0-DECACC2578EB</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<sourcePk>A17C7D84-339B-96F8-896D-382DFE2146BF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12CF998E-A20D-2365-6CE7-9FB727321189</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>288C5448-2A15-40EB-D9EC-092FDBCFC5A0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

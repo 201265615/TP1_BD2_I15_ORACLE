@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="22458EB4-6079-A2BA-3402-296011792F09" mainViewID="15E3D0F2-F344-59DA-0D1B-1FEC7415332C">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:46:03 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

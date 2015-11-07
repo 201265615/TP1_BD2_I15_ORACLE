@@ -1,0 +1,275 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="617B92BB-1F47-F8B8-8B10-A2E390E9FDE9" name="T_COTIZACIONES">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_COTIZACIONES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:15 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO" id="323805B4-DD74-20C3-44F9-0596CDEDA2AB">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COTIZACIONES</sourceObjSchema>
+<sourceObjName>NUMERO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECREGISTRO" id="9E66B9C3-A23C-2A1E-63D7-AD24D1DED7DE">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COTIZACIONES</sourceObjSchema>
+<sourceObjName>FECREGISTRO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEDJURCLIENTE" id="6D563C94-4536-F3BF-9A6B-D4220F4077DE">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COTIZACIONES</sourceObjSchema>
+<sourceObjName>CEDJURCLIENTE</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>43F231BC-AE2D-8C1E-B96A-416F8504F1C4</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4CFD135-20F5-7CAF-CDF6-865CF0C807A7" referredColumn="43F231BC-AE2D-8C1E-B96A-416F8504F1C4"/>
+</associations>
+</Column>
+<Column name="CONDICIONPAGO" id="13FB05E1-A019-923D-4799-2447470FD8D6">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COTIZACIONES</sourceObjSchema>
+<sourceObjName>CONDICIONPAGO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONDICIONVENTA" id="73C4C0D7-8B1F-3BD4-B9FC-2DCE0160B4F7">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COTIZACIONES</sourceObjSchema>
+<sourceObjName>CONDICIONVENTA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIGENCIA" id="81F93509-AFF5-2E32-59ED-A780059B334B">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COTIZACIONES</sourceObjSchema>
+<sourceObjName>VIGENCIA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACIONES" id="16D674F3-EC97-D244-E777-B15869266368">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COTIZACIONES</sourceObjSchema>
+<sourceObjName>OBSERVACIONES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODMONEDA" id="E88453D1-7396-B1AF-AB56-1BDEEB561FA8">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COTIZACIONES</sourceObjSchema>
+<sourceObjName>CODMONEDA</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>45562859-6EF5-08FB-7E82-E7E32556175D</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46CADF35-84A9-F1F2-7A49-F2D72A02BD21" referredColumn="45562859-6EF5-08FB-7E82-E7E32556175D"/>
+</associations>
+</Column>
+<Column name="CODESTADOCOTIZ" id="1C214AAD-733B-69EA-237C-635A39C10134">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COTIZACIONES</sourceObjSchema>
+<sourceObjName>CODESTADOCOTIZ</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>91353348-7EE1-571A-6C46-96402697F32C</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF5DDC10-A099-ECFF-698D-A61CA7400167" referredColumn="91353348-7EE1-571A-6C46-96402697F32C"/>
+</associations>
+</Column>
+<Column name="CODLISTAPRECIOS" id="02D3D55C-563F-605C-F733-2E6754620C49">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COTIZACIONES</sourceObjSchema>
+<sourceObjName>CODLISTAPRECIOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>79929F62-18AA-E0C8-511C-DB40D5E296E4</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB7FD3EE-3A3E-FAFD-EBFC-7C8157D0ABF5" referredColumn="79929F62-18AA-E0C8-511C-DB40D5E296E4"/>
+</associations>
+</Column>
+<Column name="MESENTREG" id="3AFBC226-5275-EA86-6884-B2D472970CAA">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COTIZACIONES</sourceObjSchema>
+<sourceObjName>MESENTREG</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>E91C313D-2A02-69E0-C664-C6EC101438BD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="386464FC-4212-F251-A762-5E801E02F584" referredColumn="E91C313D-2A02-69E0-C664-C6EC101438BD"/>
+</associations>
+</Column>
+<Column name="ANIOENTREG" id="F710EBCF-0195-D407-2BE5-F6DB351E3A5A">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_COTIZACIONES</sourceObjSchema>
+<sourceObjName>ANIOENTREG</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<delegate>169D7D50-AA8B-0C37-6899-439EE2E35B1A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="386464FC-4212-F251-A762-5E801E02F584" referredColumn="169D7D50-AA8B-0C37-6899-439EE2E35B1A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0689BFB2-F4C0-BDBE-7F8C-242D8C600083" name="T_COTIZACIONES_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_COTIZACIONES_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:17 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="323805B4-DD74-20C3-44F9-0596CDEDA2AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C238E09-B5B9-A9E7-430C-3AB2472B1AFE" name="T_COTIZACIONES_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_COTIZACIONES_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="323805B4-DD74-20C3-44F9-0596CDEDA2AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43689D89-7551-526A-C962-92EB94D80B6E" name="FKT_COTIZACI344790">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AFBC226-5275-EA86-6884-B2D472970CAA"/>
+<colUsage columnID="F710EBCF-0195-D407-2BE5-F6DB351E3A5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA471D13-E46B-EAD8-414E-C5141B12FFD5" name="FKT_COTIZACI429323">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D563C94-4536-F3BF-9A6B-D4220F4077DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50712883-C6DF-9E02-DA03-64EEF84C40EC" name="FKT_COTIZACI656953">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E88453D1-7396-B1AF-AB56-1BDEEB561FA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE5FE9C3-4A17-D8EE-CC51-1FE583F9DECC" name="FKT_COTIZACI717841">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C214AAD-733B-69EA-237C-635A39C10134"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88235B8C-5AB0-9A98-8183-D0B292160021" name="FKT_COTIZACI920077">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02D3D55C-563F-605C-F733-2E6754620C49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

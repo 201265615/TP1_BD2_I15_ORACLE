@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5D7818B-7F4D-AB13-F0FD-E8873BAB30A7" name="T_TIPOCAMBIOS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOCAMBIOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:17 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODMONEDA1" id="44D48EAA-B6B6-6E39-E994-A9B357403420">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>CODMONEDA1</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>E480FFDC-55DC-1E8C-718A-DC4556CEC191</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39CB78F1-DB36-5621-531B-36D7D6B09888" referredColumn="E480FFDC-55DC-1E8C-718A-DC4556CEC191"/>
+</associations>
+</Column>
+<Column name="CODMONEDA2" id="BD9DF716-B294-AFF0-A291-259EFCF7D7CB">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>CODMONEDA2</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>E480FFDC-55DC-1E8C-718A-DC4556CEC191</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDB2E0C3-DC13-3940-01D4-D5F3004B2FB9" referredColumn="E480FFDC-55DC-1E8C-718A-DC4556CEC191"/>
+</associations>
+</Column>
+<Column name="MONTO" id="9ADE5AC9-B11B-9563-8B3B-E1BEF7FE7F6D">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>MONTO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>17</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODINDICEECONOMICO" id="398AA1C0-75FF-F545-33DD-26D4AE3ECC8F">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>CODINDICEECONOMICO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="772B5269-9E52-B69A-66CA-BFC7AB1B9BE2">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>A3B8E073-E858-16FE-1AE1-C6510238A90F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D84A5E69-7BE2-2280-31A9-CBF50F7EF9BE" referredColumn="A3B8E073-E858-16FE-1AE1-C6510238A90F"/>
+</associations>
+</Column>
+<Column name="MES" id="CB26C105-1014-33BE-7AE7-6B86AA0CF07D">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>MES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>543D74C7-0A36-B3F2-98BC-34BFF3F9C4C6</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4DEF38D-90AC-40C0-9301-3501A1EF4A0D" referredColumn="543D74C7-0A36-B3F2-98BC-34BFF3F9C4C6"/>
+</associations>
+</Column>
+<Column name="ANIO" id="1B1F00B6-0428-301F-AB1D-01313CEB1905">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>ANIO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<delegate>47A55365-92D7-1AA7-05D8-6C54E694553A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4DEF38D-90AC-40C0-9301-3501A1EF4A0D" referredColumn="47A55365-92D7-1AA7-05D8-6C54E694553A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="574DB511-4FAD-A96E-4F23-1D3A1691A52F" name="FKT_TIPOCAMB620100">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44D48EAA-B6B6-6E39-E994-A9B357403420"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCD65900-6AAE-6B22-52FD-56AF7EE5911A" name="FKT_TIPOCAMB620101">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD9DF716-B294-AFF0-A291-259EFCF7D7CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F434DD68-0A59-19E2-6701-BCCCD81E78A2" name="FKT_TIPOCAMB651026">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="772B5269-9E52-B69A-66CA-BFC7AB1B9BE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E256057-0C25-96D7-C16A-DC1C3BF67C30" name="FKT_TIPOCAMB923514">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB26C105-1014-33BE-7AE7-6B86AA0CF07D"/>
+<colUsage columnID="1B1F00B6-0428-301F-AB1D-01313CEB1905"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

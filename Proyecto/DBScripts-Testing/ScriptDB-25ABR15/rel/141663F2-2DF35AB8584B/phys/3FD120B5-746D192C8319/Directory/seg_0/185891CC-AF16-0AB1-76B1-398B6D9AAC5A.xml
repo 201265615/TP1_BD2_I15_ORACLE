@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DirectoryOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DirectoryOraclev10g" name="TMP" directorySegmentName="seg_0" id="185891CC-AF16-0AB1-76B1-398B6D9AAC5A">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjName>TMP</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:15 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<dirPath>/tmp</dirPath>
+</DirectoryOraclev10g>

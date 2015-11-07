@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FKT_LINEASFA50873" directorySegmentName="seg_0" id="C9523B81-D357-7F4A-ECEF-BA60989A583F">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:25 UTC</createdTime>
+<generatorID>8F699B38-8D64-4A98-D71E-9C7DD78DBA2C</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<sourcePk>2E209BF8-B56D-AFD1-DB03-E4DD2AD9CE27</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3A094A55-6F80-B5AE-3C26-1AE3F779B95D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3767BF2E-B70B-5B3C-DE03-5864B0DB2418</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

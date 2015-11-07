@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_ARTICULOS" directorySegmentName="seg_0" id="0A4AF327-A5AE-DA78-56BA-E348D7596400">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D6DB90C5-AFF2-C0CF-C485-89B7408799FA</segment>
+<tableSpace>5004FED0-78C3-1B33-E4C2-D9566CC1FC85</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_ARTICULOS_PK" id="5FA72490-C603-E0F3-1DE2-CF7C59810EF3">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<segment>7552E20A-8D76-78DA-DE15-AB6807F27AA8</segment>
+<tableSpace>5004FED0-78C3-1B33-E4C2-D9566CC1FC85</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="UNDMEDIDA" id="0BE07435-6FAC-BE50-D28E-DA1CDF225548">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODUSERREGISTRO" id="14A10395-2A49-67B8-3E41-57B000191B45">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTMINIMA" id="21C97FAC-4CE1-919E-4D0D-88A298A519E6">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODMARCA" id="2E4FF0C9-7A8B-DACB-6BFE-7AC00A2B1134">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODESTARTICULO" id="4AE79300-BE1A-80F1-C0B7-B437C7C80847">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODFAMILIA" id="532D3F04-A91D-3B40-FA0E-A3A020B0C215">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO" id="5A1BD462-5319-8875-D6AB-12FB3A24299A">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECREGISTRO" id="6BA030A3-907E-4680-FE0C-2A6B6AC5B3D7">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRECIOMERCDOLARES" id="6F5B0911-987F-4735-F605-542ACCA42F18">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAACTPRECIO" id="7DEE99B1-0EFB-32AD-AD2B-98A5B0C566CA">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTIDAD" id="98DDF2EF-8B6E-57C4-8DB6-9440838AEA55">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="9B1447BC-5F55-0B16-186B-C7466B4416E7">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTMAXIMA" id="B9C53F2F-464B-9A7F-8C21-C30EF31F10BB">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODELO" id="CE3C5300-5EE6-AE65-4D1D-DB9BB688177C">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO570863" id="04899FE1-B246-2860-6144-45077D19FF47">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO578076" id="1E78C1D6-5558-ECF3-6526-76B6F5E5850B">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO904486" id="65871147-A6FA-BDF3-1816-A8E59BCC40D5">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO840016" id="69CFD5C0-8F49-AAD8-98EB-E936A3B510A3">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO848891" id="84003205-CD60-9443-1570-B01A1EA17EB9">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_ARTICULOS_PK" id="6DB85608-B73B-9D2F-4498-377577F76F27">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:48 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<segment>7552E20A-8D76-78DA-DE15-AB6807F27AA8</segment>
+<tableSpace>5004FED0-78C3-1B33-E4C2-D9566CC1FC85</tableSpace>
+<existingIndex>5FA72490-C603-E0F3-1DE2-CF7C59810EF3</existingIndex>
+<indexSegment>7552E20A-8D76-78DA-DE15-AB6807F27AA8</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

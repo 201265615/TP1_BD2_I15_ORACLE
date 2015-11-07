@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MVIALES" directorySegmentName="seg_0" id="289D7103-DDDA-C9FA-6967-16036284FC5F">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjName>MVIALES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:45 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<defTableSpace>5004FED0-78C3-1B33-E4C2-D9566CC1FC85</defTableSpace>
+<privileges>CREATE TRIGGER, CREATE VIEW, CREATE TABLE</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="5E3CD38F-B934-4B5C-2E97-8397C34C63AC">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:45 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<size>52428800</size>
+<tableSpace>5004FED0-78C3-1B33-E4C2-D9566CC1FC85</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

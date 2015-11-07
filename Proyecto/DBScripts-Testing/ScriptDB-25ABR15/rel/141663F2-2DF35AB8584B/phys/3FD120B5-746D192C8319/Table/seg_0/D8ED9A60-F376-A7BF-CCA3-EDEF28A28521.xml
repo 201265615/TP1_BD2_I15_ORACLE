@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_ARTICULOSCOTIZADOS" directorySegmentName="seg_0" id="D8ED9A60-F376-A7BF-CCA3-EDEF28A28521">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:17 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>30E0BF31-27F9-DA0E-60D8-C3CB698CF434</segment>
+<tableSpace>7FAEE358-1396-42E0-1F5B-D33E8C413CD4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_ARTICULOSCOTIZADOS_PK" id="CCF91450-9707-ADFA-EF86-4BE84059410C">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:19 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<segment>954780EB-F34E-31BB-648C-E9771560428E</segment>
+<tableSpace>7FAEE358-1396-42E0-1F5B-D33E8C413CD4</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NUMCOTIZACION" id="208B07F1-3D6E-95F8-98FF-E50941F0F59A">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COSTOUNITARIO" id="2EB01E1A-4634-60CB-7B0A-C0FBD8F87499">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTOLINEA" id="3F86E68D-1EB7-AAED-57B7-B95160867ECE">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PORCENDESCUENTO" id="61CCACB6-DCB7-BF2F-AB45-A6974204E738">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODARTICULO" id="8B9F04F8-19D9-3219-6BB0-40198C0E5CD0">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTIDAD" id="929BF612-EEB7-4405-894E-914258CF87B9">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNDMEDIDA" id="DA5E98BB-9485-2AFA-9CFB-8576B3E2D64A">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COSTOGRABADO" id="EC9FD630-F6B0-96A6-53DA-4D52E49C3028">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO522199" id="20651866-B4F7-1613-B606-AF828C06C02C">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO50573" id="748EF8C1-7B84-3A05-C0BC-BFF00F3B8877">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO382695" id="DF4047AD-B169-C095-2200-1221DB3B6B59">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_ARTICULOSCOTIZADOS_PK" id="0E629BEB-ACBF-0A96-1C40-4A67E28E0E9C">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:21 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<segment>954780EB-F34E-31BB-648C-E9771560428E</segment>
+<tableSpace>7FAEE358-1396-42E0-1F5B-D33E8C413CD4</tableSpace>
+<existingIndex>CCF91450-9707-ADFA-EF86-4BE84059410C</existingIndex>
+<indexSegment>954780EB-F34E-31BB-648C-E9771560428E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

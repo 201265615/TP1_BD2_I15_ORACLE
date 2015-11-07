@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4931FC86-AEDB-2868-4390-9402C725A710" name="PK_NUMCOTIZACIONHISTO">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>PK_NUMCOTIZACIONHISTO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<containerWithKeyObject>E0BCF312-1BBA-379D-0D29-ED2A09C08C20</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>82825436-81BF-70DA-EF38-6980174C0538</localFKIndex>
+<keyObject>858F73A7-D5F8-BC98-5114-85D9E30198A1</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

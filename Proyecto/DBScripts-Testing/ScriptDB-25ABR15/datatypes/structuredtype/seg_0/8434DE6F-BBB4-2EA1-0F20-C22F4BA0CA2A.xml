@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="MYWEBSERVICE1_RECARTICULO" directorySegmentName="seg_0" id="8434DE6F-BBB4-2EA1-0F20-C22F4BA0CA2A">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>MYWEBSERVICE1_RECARTICULO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:14 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<predefined>false</predefined>
+<final>true</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="CODIGO" id="534C9021-0DEA-198E-EBCB-F1E14595E366">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:15 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>20</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="DESCRIPCION" id="9B936BDB-D0A6-6B6F-5E28-9E309FCFF6C4">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:15 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>40</size>
+<type>LOGDT024</type>
+</Attribute>
+</attributes>
+</StructuredType>

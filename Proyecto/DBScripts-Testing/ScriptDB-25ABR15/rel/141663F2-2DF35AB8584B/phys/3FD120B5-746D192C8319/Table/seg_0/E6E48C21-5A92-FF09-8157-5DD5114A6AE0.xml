@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_LINEASFACTURACOMPRAS" directorySegmentName="seg_0" id="E6E48C21-5A92-FF09-8157-5DD5114A6AE0">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:17 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>30E0BF31-27F9-DA0E-60D8-C3CB698CF434</segment>
+<tableSpace>7FAEE358-1396-42E0-1F5B-D33E8C413CD4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_LINEASFACTURACOMPRAS_PK" id="FFE43277-27AD-B1D5-36F0-C23E62A31DEC">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:19 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<schemaObject>EEB68B7D-4C3D-327B-4EC9-F0949CCE5B19</schemaObject>
+<segment>954780EB-F34E-31BB-648C-E9771560428E</segment>
+<tableSpace>7FAEE358-1396-42E0-1F5B-D33E8C413CD4</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODFACTURA" id="35AC6D69-EB4E-9A36-795C-803FE06A9A3D">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRECIODOLARES" id="636D0AB0-6560-7D33-3EEE-3C9B2F940976">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODARTICULO" id="B130056D-5171-F284-2C1A-40968323BB98">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTIDAD" id="CC93258F-9AB2-476F-89D7-B40ADF3FC7A6">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:18 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_LINEASFA481568" id="50ED9BE2-BB3A-318A-3A6D-BC9479160916">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_LINEASFA50873" id="B8EFC5B9-5F76-E07A-776C-DF190581B0C3">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_LINEASFACTURACOMPRAS_PK" id="81E91B22-0818-515D-E325-BDD4B8CBFE28">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:22 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<segment>954780EB-F34E-31BB-648C-E9771560428E</segment>
+<tableSpace>7FAEE358-1396-42E0-1F5B-D33E8C413CD4</tableSpace>
+<existingIndex>FFE43277-27AD-B1D5-36F0-C23E62A31DEC</existingIndex>
+<indexSegment>954780EB-F34E-31BB-648C-E9771560428E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

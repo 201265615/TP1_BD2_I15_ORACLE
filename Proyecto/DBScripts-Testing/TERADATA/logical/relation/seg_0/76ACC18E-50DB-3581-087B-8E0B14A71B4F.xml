@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FKT_COTIZACI920077" directorySegmentName="seg_0" id="76ACC18E-50DB-3581-087B-8E0B14A71B4F">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>761AB22A-355C-C7BD-1C34-5106A531782C</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<sourcePk>D8AA06E5-871D-39EA-6447-715CDEE4CDDA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FD8F1F2B-908E-F74D-15A8-AE2440FF0926</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>858F665D-2E0E-A7F4-AF93-DFA351C69BC2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

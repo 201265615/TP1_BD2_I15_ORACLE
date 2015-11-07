@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4042B0B9-6E83-1FF1-70C7-ADB7E012F567" name="T_PROYECCIONESLISTAPRECIOS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_PROYECCIONESLISTAPRECIOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:15 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODARTICULO" id="B93A2099-848C-1E66-02F6-48844C9CFF6A">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROYECCIONESLISTAPRECIOS</sourceObjSchema>
+<sourceObjName>CODARTICULO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>2F895ECE-63DB-8B60-44ED-E09252A9CF5B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67A0DA84-10CF-F388-585D-E5A84EC94CBF" referredColumn="2F895ECE-63DB-8B60-44ED-E09252A9CF5B"/>
+</associations>
+</Column>
+<Column name="CODLISTAPRECIOS" id="21FE12A3-CD61-BEEB-8DCD-31E96B3EB054">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROYECCIONESLISTAPRECIOS</sourceObjSchema>
+<sourceObjName>CODLISTAPRECIOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>4657EBF7-D438-D4BD-3C45-744FBDE45107</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67A0DA84-10CF-F388-585D-E5A84EC94CBF" referredColumn="4657EBF7-D438-D4BD-3C45-744FBDE45107"/>
+</associations>
+</Column>
+<Column name="MES" id="C4F8C1E4-B798-BB77-31DD-E5E24FA28345">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROYECCIONESLISTAPRECIOS</sourceObjSchema>
+<sourceObjName>MES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>E91C313D-2A02-69E0-C664-C6EC101438BD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65B2BC4F-D3EA-0CFA-CCE3-2B351A8E7972" referredColumn="E91C313D-2A02-69E0-C664-C6EC101438BD"/>
+</associations>
+</Column>
+<Column name="ANIO" id="50E780AF-1661-547B-3C3B-E1D62D17D3CF">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROYECCIONESLISTAPRECIOS</sourceObjSchema>
+<sourceObjName>ANIO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<delegate>169D7D50-AA8B-0C37-6899-439EE2E35B1A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65B2BC4F-D3EA-0CFA-CCE3-2B351A8E7972" referredColumn="169D7D50-AA8B-0C37-6899-439EE2E35B1A"/>
+</associations>
+</Column>
+<Column name="TIPOCAMBIOPROYECT" id="2E326393-FA88-45E4-A2C8-A1A362D14108">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROYECCIONESLISTAPRECIOS</sourceObjSchema>
+<sourceObjName>TIPOCAMBIOPROYECT</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>17</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIOMERCDOLARESPROYECT" id="6AE8A043-7B97-B3BB-F47A-0A57108C82F2">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROYECCIONESLISTAPRECIOS</sourceObjSchema>
+<sourceObjName>PRECIOMERCDOLARESPROYECT</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>17</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB00D0D9-FA53-1D8E-8E44-E7275F44293B" name="FKT_PROYECCI566293">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21FE12A3-CD61-BEEB-8DCD-31E96B3EB054"/>
+<colUsage columnID="B93A2099-848C-1E66-02F6-48844C9CFF6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="979E3EB9-71D6-8CAD-8C36-68267295686C" name="FKT_PROYECCI761595">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4F8C1E4-B798-BB77-31DD-E5E24FA28345"/>
+<colUsage columnID="50E780AF-1661-547B-3C3B-E1D62D17D3CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

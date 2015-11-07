@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="IC4302-DB2-Progra1-TEC" id="845D788B-A625-5960-BBB6-4C333113231F" version="3.5">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:46:03 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>845D788B-A625-5960-BBB6-4C333113231F</designId>
+</OSDM_Design>

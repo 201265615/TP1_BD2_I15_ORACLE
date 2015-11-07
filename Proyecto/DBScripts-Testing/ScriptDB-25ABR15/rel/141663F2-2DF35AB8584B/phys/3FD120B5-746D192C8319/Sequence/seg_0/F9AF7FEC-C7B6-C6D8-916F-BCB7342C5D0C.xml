@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="T_PERMISOUSUARIOS_CODIGO_SEQ" directorySegmentName="seg_0" id="F9AF7FEC-C7B6-C6D8-916F-BCB7342C5D0C">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_PERMISOUSUARIOS_CODIGO_SEQ</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:15 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<incrementBy>1</incrementBy>
+<maxValue>9999999999999999999999999999</maxValue>
+<minValue>1</minValue>
+<noCache>YES</noCache>
+<order>YES</order>
+<user>3919DA2A-C451-AB45-1584-FB489057BDD4</user>
+</SequenceOraclev10g>

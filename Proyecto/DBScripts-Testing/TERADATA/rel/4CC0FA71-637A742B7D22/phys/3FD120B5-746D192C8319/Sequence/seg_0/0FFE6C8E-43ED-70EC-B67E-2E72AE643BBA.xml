@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="T_FACTURACOMPRAS_CODIGO_SEQ" directorySegmentName="seg_0" id="0FFE6C8E-43ED-70EC-B67E-2E72AE643BBA">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_FACTURACOMPRAS_CODIGO_SEQ</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:45 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<incrementBy>1</incrementBy>
+<maxValue>9999999999999999999999999999</maxValue>
+<minValue>1</minValue>
+<noCache>YES</noCache>
+<order>YES</order>
+<user>289D7103-DDDA-C9FA-6967-16036284FC5F</user>
+</SequenceOraclev10g>

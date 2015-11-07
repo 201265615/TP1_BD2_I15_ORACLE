@@ -1,0 +1,91 @@
+
+Este archivo es parte de Progra#1 - Bases de datos 2 - IS 2015
+Instrucciones de instalación de la base de datos.
+
+========================================================================================
+En el server fisico (donde esta instalado oracle):
+	Loguearse como "Oracle"
+	Ir a la carpeta de bases de datos
+	------------------------------------------------------------------------------------
+		$ cd /datos/master
+	------------------------------------------------------------------------------------
+	Verifica que este demo y pdbseed
+	------------------------------------------------------------------------------------
+		$ ls -l
+	------------------------------------------------------------------------------------
+	Crea el directorio de la base, en este caso, proyectopdb
+	------------------------------------------------------------------------------------
+		$ mkdir proyectopdb
+	------------------------------------------------------------------------------------
+
+========================================================================================
+En el cliente (donde esta el SQLDeveloper/DataModeler):
+	Loguearse como "SYS" en la Instancia (SID) "Master"
+	Crea la base de datos (Copia, pega y corre este script en el SQLDeveloper)
+	------------------------------------------------------------------------------------
+		CREATE PLUGGABLE DATABASE proyectopdb ADMIN USER pollitoDB IDENTIFIED BY pollitoDB
+		FILE_NAME_CONVERT = ( 
+		  '/datos/master/pdbseed/system01.dbf', '/datos/master/proyectopdb/system01.dbf',
+		  '/datos/master/pdbseed/sysaux01.dbf', '/datos/master/proyectopdb/sysaux01.dbf',
+		  '/datos/master/pdbseed/pdbseed_temp01.dbf', '/datos/master/proyectopdb/pdbseed_temp01.dbf'
+		)
+		STORAGE (
+		   MAXSIZE 1G MAX_SHARED_TEMP_SIZE 100M
+		)
+	------------------------------------------------------------------------------------
+	DesLoguearse de "SYS"
+
+========================================================================================
+En el server fisico (donde esta instalado oracle):
+	Montar la base de datos que acabas de crear
+	Para ello:
+		Inicia el SQLPlus
+		--------------------------------------------------------------------------------
+			$ sqlplus /nolog
+		--------------------------------------------------------------------------------
+		Eso provoca que el prompt cambie, ahora inicia sesión como "SYS"
+		--------------------------------------------------------------------------------
+			SQL> connect sys as sysdba
+		--------------------------------------------------------------------------------
+		Va a pedir la clave. Una vez digitada debe decir "Connected"
+		Ahora se debe montar la base que acabas de crear
+		--------------------------------------------------------------------------------
+			SQL> alter sesion set container = proyectopdb;
+		--------------------------------------------------------------------------------
+		Debe decir "Session Altered"
+		Ahora se debe abrir la base de datos
+		--------------------------------------------------------------------------------
+			SQL> alter pluggable database open read write;
+		--------------------------------------------------------------------------------
+		Esto puede tardar varios segundos
+		Debe decir "Pluggable database altered"
+		Listo, con solo esto ya está montada la nueva base de datos
+		
+		[Este paso solo se hace la primera vez que se monta la base,
+		posteriormente, el grant queda guardado xD]
+		Ahora se deben dar permisos de administrador a pollitoDB:
+			SQL> grant DBA to pollitoDB;
+		
+		Solo resta cerrar sesion
+		--------------------------------------------------------------------------------
+			SQL> exit
+		--------------------------------------------------------------------------------
+		Con esto el prompt regresa a su forma normal y 
+		eso es todo lo que se hace en el server.
+		
+	[Opcional]
+	Habilitar Acceso Web
+		Nota: "5505" es un puerto, puede ser cualquiera >= 5505
+		Nota2: "pollitoDB" puede ser cualquier otro usuario de la base de datos
+		--------------------------------------------------------------------------------
+			SQL> exec dbms_xdb_config.sethttpsport(5505);
+			SQL> grant EM_EXPRESS_ALL to pollitoDB;
+			SQL> exit
+		--------------------------------------------------------------------------------
+
+========================================================================================
+En el cliente (donde esta el SQLDeveloper/DataModeler):
+	Loguearse como "pollitoDB" con el Service Name "proyectopdb"
+	
+Listo, ahora es posible crear los tablespace requeridos por las tablas
+de la tarea programada.

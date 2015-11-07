@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0D94CC06-B5E5-A69B-AC4D-45EA024473CE" mainViewID="F8E137A7-577D-1B6C-AF06-92276B3CA9B1">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:17:30 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="SP_GETARTIC_V2" directorySegmentName="seg_0" id="1D2D6B29-7AD8-A00F-1A9F-2309DE6B8C3E">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>SP_GETARTIC_V2</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:29 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<owner>3919DA2A-C451-AB45-1584-FB489057BDD4</owner>
+<source>CREATE OR REPLACE PROCEDURE MVIALES.SP_GETARTIC_V2(&lt;br/&gt;    CURRESP OUT SYS_REFCURSOR&lt;br/&gt;) AS BEGIN&lt;br/&gt;  OPEN CURRESP FOR&lt;br/&gt;    SELECT TA.DESCRIPCION FROM T_ARTICULOS TA;&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE PROCEDURE MVIALES.SP_GETARTIC_V2(&lt;br/&gt;    CURRESP OUT SYS_REFCURSOR&lt;br/&gt;) AS BEGIN&lt;br/&gt;  OPEN CURRESP FOR&lt;br/&gt;    SELECT TA.DESCRIPCION FROM T_ARTICULOS TA;&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>

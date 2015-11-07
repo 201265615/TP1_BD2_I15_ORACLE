@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="206B8B82-2440-A5C0-358C-D01603076911">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:17:30 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

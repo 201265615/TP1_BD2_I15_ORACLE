@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="SP_GETARTICULOS" directorySegmentName="seg_0" id="D1D9AB06-D8B9-3DAA-2A4A-94A3A2D8CC93">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>SP_GETARTICULOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:26 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<owner>74339565-964E-63C8-A400-20171FFF8C36</owner>
+<source>CREATE OR REPLACE Procedure MVIALES.SP_GETARTICULOS &lt;br/&gt;IS&lt;br/&gt;      cod VARCHAR2(40);&lt;br/&gt;      &lt;br/&gt;      cursor cursorArticulos is select descripcion from t_articulos;&lt;br/&gt;&lt;br/&gt;BEGIN&lt;br/&gt;      open cursorArticulos;&lt;br/&gt;      loop&lt;br/&gt;        fetch cursorArticulos into cod; &lt;br/&gt;        exit when cursorArticulos %notfound;&lt;br/&gt;        DBMS_OUTPUT.PUT_LINE(cod);&lt;br/&gt;      end loop;&lt;br/&gt;      close cursorArticulos;&lt;br/&gt;      commit;&lt;br/&gt;END SP_GetArticulos;</source>
+<body>CREATE OR REPLACE Procedure MVIALES.SP_GETARTICULOS &lt;br/&gt;IS&lt;br/&gt;      cod VARCHAR2(40);&lt;br/&gt;      &lt;br/&gt;      cursor cursorArticulos is select descripcion from t_articulos;&lt;br/&gt;&lt;br/&gt;BEGIN&lt;br/&gt;      open cursorArticulos;&lt;br/&gt;      loop&lt;br/&gt;        fetch cursorArticulos into cod; &lt;br/&gt;        exit when cursorArticulos %notfound;&lt;br/&gt;        DBMS_OUTPUT.PUT_LINE(cod);&lt;br/&gt;      end loop;&lt;br/&gt;      close cursorArticulos;&lt;br/&gt;      commit;&lt;br/&gt;END SP_GetArticulos;</body>
+</StoredProcedureOraclev10g>

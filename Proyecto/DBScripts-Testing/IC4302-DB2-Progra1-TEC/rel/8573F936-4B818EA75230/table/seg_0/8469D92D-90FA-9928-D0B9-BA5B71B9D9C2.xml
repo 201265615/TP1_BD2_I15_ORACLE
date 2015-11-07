@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8469D92D-90FA-9928-D0B9-BA5B71B9D9C2" name="T_LISTAPRECIOXARTICULOS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_LISTAPRECIOXARTICULOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:15 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODLISTAPRECIO" id="4657EBF7-D438-D4BD-3C45-744FBDE45107">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_LISTAPRECIOXARTICULOS</sourceObjSchema>
+<sourceObjName>CODLISTAPRECIO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>79929F62-18AA-E0C8-511C-DB40D5E296E4</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D6A741D-6A3A-F8F8-90DE-2133AD27950E" referredColumn="79929F62-18AA-E0C8-511C-DB40D5E296E4"/>
+</associations>
+</Column>
+<Column name="CODARTICULO" id="2F895ECE-63DB-8B60-44ED-E09252A9CF5B">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_LISTAPRECIOXARTICULOS</sourceObjSchema>
+<sourceObjName>CODARTICULO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>B492BC08-E102-807A-18E3-C6474A8EB5DB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F29D2ABC-6C90-6339-0BFD-251FA31F8E48" referredColumn="B492BC08-E102-807A-18E3-C6474A8EB5DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96621DFE-3B36-A47A-C39E-4482BB914D63" name="T_LISTAPRECIOXARTICULOS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_LISTAPRECIOXARTICULOS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:17 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4657EBF7-D438-D4BD-3C45-744FBDE45107"/>
+<colUsage columnID="2F895ECE-63DB-8B60-44ED-E09252A9CF5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="942C68D4-04B5-7762-8616-E26460489AC9" name="T_LISTAPRECIOXARTICULOS_PK">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_LISTAPRECIOXARTICULOS_PK</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4657EBF7-D438-D4BD-3C45-744FBDE45107"/>
+<colUsage columnID="2F895ECE-63DB-8B60-44ED-E09252A9CF5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BC406E2-28F6-EC77-CC87-827C2204C4B0" name="FKT_LISTAPRE160880">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F895ECE-63DB-8B60-44ED-E09252A9CF5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="958B6948-381F-4388-24F5-9C44F566CA80" name="FKT_LISTAPRE78013">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4657EBF7-D438-D4BD-3C45-744FBDE45107"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

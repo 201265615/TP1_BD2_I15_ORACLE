@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FKT_PROVINCI451632" directorySegmentName="seg_0" id="1311AB6A-9901-D6A2-3F5E-D07CF3A8256D">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 23:12:25 UTC</createdTime>
+<generatorID>662E4869-8724-5FB0-2B98-C13F21E0FD3A</generatorID>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<engineerTo>
+<item key="8573F936-3B20-55D2-F213-4B818EA75230" value="true"/>
+</engineerTo>
+<sourcePk>A90BB4C9-388D-C972-A584-30BC2D863292</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>180140E2-4189-56F5-BB9D-7397F7E16B85</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6CBEE0CC-990D-E720-49A8-5258FB76B400</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

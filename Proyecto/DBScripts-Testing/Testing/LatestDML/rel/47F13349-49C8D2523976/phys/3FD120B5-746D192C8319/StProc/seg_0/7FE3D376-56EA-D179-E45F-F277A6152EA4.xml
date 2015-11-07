@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="SP_MODIFICARARTICULO" directorySegmentName="seg_0" id="7FE3D376-56EA-D179-E45F-F277A6152EA4">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>SP_MODIFICARARTICULO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:26 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<owner>74339565-964E-63C8-A400-20171FFF8C36</owner>
+<source>CREATE OR REPLACE Procedure MVIALES.SP_MODIFICARARTICULO (IN_CODIGO IN VARCHAR2, IN_CODUSERREGISTRO IN VARCHAR2, IN_PRECIOMERCDOLARES IN NUMBER)&lt;br/&gt;&lt;br/&gt;AS&lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;UPDATE  t_articulos &lt;br/&gt;      SET CODUSERREGISTRO = IN_CODUSERREGISTRO,&lt;br/&gt;          PRECIOMERCDOLARES = IN_PRECIOMERCDOLARES,&lt;br/&gt;          FECHAACTPRECIO = sysdate&lt;br/&gt;          WHERE CODIGO = IN_CODIGO;&lt;br/&gt;      &lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE Procedure MVIALES.SP_MODIFICARARTICULO (IN_CODIGO IN VARCHAR2, IN_CODUSERREGISTRO IN VARCHAR2, IN_PRECIOMERCDOLARES IN NUMBER)&lt;br/&gt;&lt;br/&gt;AS&lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;UPDATE  t_articulos &lt;br/&gt;      SET CODUSERREGISTRO = IN_CODUSERREGISTRO,&lt;br/&gt;          PRECIOMERCDOLARES = IN_PRECIOMERCDOLARES,&lt;br/&gt;          FECHAACTPRECIO = sysdate&lt;br/&gt;          WHERE CODIGO = IN_CODIGO;&lt;br/&gt;      &lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>

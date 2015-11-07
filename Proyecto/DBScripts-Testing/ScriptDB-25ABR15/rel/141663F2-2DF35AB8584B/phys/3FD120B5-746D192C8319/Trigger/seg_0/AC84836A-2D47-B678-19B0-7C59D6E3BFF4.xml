@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_TIPOCONTACTOS_CODTIPOCONTACT" directorySegmentName="seg_0" id="AC84836A-2D47-B678-19B0-7C59D6E3BFF4">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOCONTACTOS_CODTIPOCONTACT</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:25 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN :NEW.CODTIPOCONTACTO := MVIALES.T_TIPOCONTACTOS_CODTIPOCONTACT.NEXTVAL;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>NEW.CODTIPOCONTACTO IS NULL</condition>
+<owner>3919DA2A-C451-AB45-1584-FB489057BDD4</owner>
+<table>9DB64777-7834-1946-451A-AA3F5C77CAF6</table>
+</TriggerOraclev10g>

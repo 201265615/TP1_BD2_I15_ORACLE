@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="CONNECT" directorySegmentName="seg_0" id="8C95FF6C-ED1E-7747-5897-0A4F47CC9B14">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjName>CONNECT</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:13 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<nullInstance>true</nullInstance>
+<storableNullInstance>true</storableNullInstance>
+<privileges>SET CONTAINER, CREATE SESSION</privileges>
+</RoleOraclev10g>

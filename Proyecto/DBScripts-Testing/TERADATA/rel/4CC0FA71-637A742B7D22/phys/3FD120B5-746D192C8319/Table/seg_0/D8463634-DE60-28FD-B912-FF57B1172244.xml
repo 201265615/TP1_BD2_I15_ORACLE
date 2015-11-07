@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_ARTICULOSCOTIZADOS" directorySegmentName="seg_0" id="D8463634-DE60-28FD-B912-FF57B1172244">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>53458C48-2C95-3A97-867B-22DC6135CC6A</segment>
+<tableSpace>5004FED0-78C3-1B33-E4C2-D9566CC1FC85</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_ARTICULOSCOTIZADOS_PK" id="71E5C9B5-D06A-9498-785E-B8B141CE3C8A">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<segment>99EE4ED9-F72A-BC07-238B-969CB61017E8</segment>
+<tableSpace>5004FED0-78C3-1B33-E4C2-D9566CC1FC85</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NUMCOTIZACION" id="04C5359B-A2D8-6C87-2A78-12476B5F1318">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODARTICULO" id="114FDFEB-88B5-24F9-C83C-6264A5D82E47">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COSTOUNITARIO" id="80494A04-BE6C-1705-6114-96E55B13EE8B">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PORCENDESCUENTO" id="98B55575-F6CA-95DA-1720-059562FBAF51">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTOLINEA" id="B7EEBDC1-5378-70BD-1925-F1F37DFC8058">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNDMEDIDA" id="CBB13FF9-02EC-2B05-4C35-ACB09BAA2B62">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COSTOGRABADO" id="E17532FC-A6BA-1990-D43D-1D093C3E503A">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTIDAD" id="EB3A8F90-F655-581E-58E3-B5A86D561F2B">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO522199" id="5D3F991B-F437-F5BD-C9DA-C3B7F20D1749">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO382695" id="78E1C578-3213-73BD-A197-DBFF66FCE7FA">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_ARTICULO50573" id="C0FB8789-3E7C-2688-F7B3-0EF80EE9A8EC">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_ARTICULOSCOTIZADOS_PK" id="157161FD-1B99-A222-3121-BF24971B4BB2">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:48 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<segment>99EE4ED9-F72A-BC07-238B-969CB61017E8</segment>
+<tableSpace>5004FED0-78C3-1B33-E4C2-D9566CC1FC85</tableSpace>
+<existingIndex>71E5C9B5-D06A-9498-785E-B8B141CE3C8A</existingIndex>
+<indexSegment>99EE4ED9-F72A-BC07-238B-969CB61017E8</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

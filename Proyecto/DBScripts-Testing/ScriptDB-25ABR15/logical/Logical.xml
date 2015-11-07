@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3E27CD6F-0F1C-E8EC-D696-5C989191485E" mainViewID="9DC42BC7-3DF8-726D-9BB4-0DE3C950E115">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:42:02 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

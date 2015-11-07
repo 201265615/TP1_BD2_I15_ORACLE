@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="T_DETALLEDIRECCION_CODDETALLE" directorySegmentName="seg_0" id="0211DCBA-818B-CB7B-27EC-72E80E025133">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_DETALLEDIRECCION_CODDETALLE</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN :NEW.CODDETALLE := MVIALES.T_DETALLEDIRECCION_CODDETALLE.NEXTVAL;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>NEW.CODDETALLE IS NULL</condition>
+<owner>289D7103-DDDA-C9FA-6967-16036284FC5F</owner>
+<table>9E508B49-38B0-4FDE-40A5-81D8BAD24B65</table>
+</TriggerOraclev10g>

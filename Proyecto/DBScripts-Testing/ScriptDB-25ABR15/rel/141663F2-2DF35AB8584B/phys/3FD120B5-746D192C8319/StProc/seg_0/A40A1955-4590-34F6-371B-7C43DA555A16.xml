@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="SP_BORRARCOMPONENTE" directorySegmentName="seg_0" id="A40A1955-4590-34F6-371B-7C43DA555A16">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>SP_BORRARCOMPONENTE</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:29 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<owner>3919DA2A-C451-AB45-1584-FB489057BDD4</owner>
+<source>CREATE OR REPLACE Procedure MVIALES.SP_BORRARCOMPONENTE (IN_CODCOMPONENTE IN VARCHAR2,IN_CODARTICULO IN VARCHAR2)&lt;br/&gt;&lt;br/&gt;AS&lt;br/&gt;BEGIN&lt;br/&gt;  IF(IN_CODARTICULO IS NULL) THEN&lt;br/&gt;          DELETE FROM  t_componentes&lt;br/&gt;          WHERE CODCOMPONENTE = IN_CODCOMPONENTE;&lt;br/&gt;        ELSE&lt;br/&gt;          DELETE FROM  t_componentes&lt;br/&gt;          WHERE CODCOMPONENTE = IN_CODCOMPONENTE AND CODARTICULO = IN_CODARTICULO;&lt;br/&gt;  END IF;&lt;br/&gt;&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE Procedure MVIALES.SP_BORRARCOMPONENTE (IN_CODCOMPONENTE IN VARCHAR2,IN_CODARTICULO IN VARCHAR2)&lt;br/&gt;&lt;br/&gt;AS&lt;br/&gt;BEGIN&lt;br/&gt;  IF(IN_CODARTICULO IS NULL) THEN&lt;br/&gt;          DELETE FROM  t_componentes&lt;br/&gt;          WHERE CODCOMPONENTE = IN_CODCOMPONENTE;&lt;br/&gt;        ELSE&lt;br/&gt;          DELETE FROM  t_componentes&lt;br/&gt;          WHERE CODCOMPONENTE = IN_CODCOMPONENTE AND CODARTICULO = IN_CODARTICULO;&lt;br/&gt;  END IF;&lt;br/&gt;&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>

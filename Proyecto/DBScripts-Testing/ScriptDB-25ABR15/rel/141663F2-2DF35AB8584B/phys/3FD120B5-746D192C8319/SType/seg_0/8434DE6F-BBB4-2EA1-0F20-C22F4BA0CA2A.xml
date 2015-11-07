@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredTypeProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" name="MYWEBSERVICE1_RECARTICULO" directorySegmentName="seg_0" id="8434DE6F-BBB4-2EA1-0F20-C22F4BA0CA2A">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>MYWEBSERVICE1_RECARTICULO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:14 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<owner>3919DA2A-C451-AB45-1584-FB489057BDD4</owner>
+<attributes itemClass="oracle.dbtools.crest.model.design.storage.oracle.v9i.TypeElementProxyOraclev9i">
+<Attribute name="CODIGO" id="534C9021-0DEA-198E-EBCB-F1E14595E366">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:15 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</Attribute>
+<Attribute name="DESCRIPCION" id="9B936BDB-D0A6-6B6F-5E28-9E309FCFF6C4">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:15 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+</Attribute>
+</attributes>
+</StructuredTypeProxyOraclev10g>

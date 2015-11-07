@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DC7422A2-3724-B6A2-9457-8D1685356A29" name="FKT_USUARIOS41238">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>FKT_USUARIOS41238</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<containerWithKeyObject>E4152364-A570-C3C2-FD34-4F0E4B1CE8DB</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>E610A823-BE7A-2755-5250-30858F8AC736</localFKIndex>
+<keyObject>54893753-FFF2-5B3B-EE4C-259C9C9CDA69</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

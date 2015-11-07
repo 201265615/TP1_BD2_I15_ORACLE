@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="T_COTIZACIONES" directorySegmentName="seg_0" id="1900FB23-1DD5-B21A-FBF7-B5A5F28D5B4F">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>53458C48-2C95-3A97-867B-22DC6135CC6A</segment>
+<tableSpace>5004FED0-78C3-1B33-E4C2-D9566CC1FC85</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_COTIZACIONES_PK" id="D8941553-9469-D1E4-7D7B-4A08A3547F09">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<segment>99EE4ED9-F72A-BC07-238B-969CB61017E8</segment>
+<tableSpace>5004FED0-78C3-1B33-E4C2-D9566CC1FC85</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODESTADOCOTIZ" id="08CE5C32-BBC0-0124-3916-E2740B7713DC">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODLISTAPRECIOS" id="1DB819C1-098C-4362-85F2-10CE68A19184">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VIGENCIA" id="2A5BA79D-8E40-921C-313D-2D70B9D12404">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECREGISTRO" id="2A962DC1-811D-7984-6C58-9EA8BBF3FC94">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ANIOENTREG" id="86F5E0C2-E9BD-3320-0A20-2D760E6B7A18">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONDICIONVENTA" id="8B57B95E-2B22-04E4-1CBF-0F55544BBB0F">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBSERVACIONES" id="B4E31E3F-736A-0C6F-E295-80801026D6B2">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MESENTREG" id="CB2A2294-C3E3-AF17-A698-E41F1D26DFB8">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONDICIONPAGO" id="D0928CA0-B404-FAB0-1BA6-A19D68C0BA7E">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODMONEDA" id="D90950FA-4778-7409-6F43-4EE583533149">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CEDJURCLIENTE" id="F4222AB5-FB75-B85C-6441-96DA5D9D6CB9">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO" id="F757A669-3119-5C43-450F-1F1C9743F5DF">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_COTIZACI344790" id="13C05E07-6B14-445F-C776-831C82ED6692">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_COTIZACI920077" id="691C642A-64CD-6E64-48EA-6A2593596583">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_COTIZACI429323" id="88153077-C663-89AF-4672-B9CD346612F8">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_COTIZACI717841" id="E6A721AC-157F-FFB0-0CAF-87A2BB69E6EF">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FKT_COTIZACI656953" id="FC64719E-C218-C1AF-AEEE-FEFF748CED9A">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_COTIZACIONES_PK" id="01195AE3-FA25-A6DE-3650-A5F0FCBB06F6">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:48 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<segment>99EE4ED9-F72A-BC07-238B-969CB61017E8</segment>
+<tableSpace>5004FED0-78C3-1B33-E4C2-D9566CC1FC85</tableSpace>
+<existingIndex>D8941553-9469-D1E4-7D7B-4A08A3547F09</existingIndex>
+<indexSegment>99EE4ED9-F72A-BC07-238B-969CB61017E8</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

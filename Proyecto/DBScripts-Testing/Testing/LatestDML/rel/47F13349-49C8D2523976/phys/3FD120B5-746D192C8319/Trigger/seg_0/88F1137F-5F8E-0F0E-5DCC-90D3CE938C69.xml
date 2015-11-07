@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="AFT_INS_PRECIOFAC_UPD_ARTIC" directorySegmentName="seg_0" id="88F1137F-5F8E-0F0E-5DCC-90D3CE938C69">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>AFT_INS_PRECIOFAC_UPD_ARTIC</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 02:20:25 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<actions>INSERT</actions>
+<body>begin&lt;br/&gt;  &lt;br/&gt;  UPDATE  t_articulos &lt;br/&gt;      SET CODUSERREGISTRO = &apos;admin&apos;,&lt;br/&gt;          PRECIOMERCDOLARES = :NEW.precioDolares,&lt;br/&gt;          FECHAACTPRECIO = sysdate&lt;br/&gt;          WHERE CODIGO = :NEW.CODARTICULO;&lt;br/&gt; &lt;br/&gt;end AFT_INS_PrecioFac_UPD_Artic;</body>
+<triggerTime>AFTER</triggerTime>
+<owner>74339565-964E-63C8-A400-20171FFF8C36</owner>
+<table>01BECD8E-B200-93D6-7BDB-599AC3115519</table>
+</TriggerOraclev10g>

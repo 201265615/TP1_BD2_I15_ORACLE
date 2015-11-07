@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F809450F-0B11-5C0D-4BE0-DECACC2578EB" name="T_FAMILIAS_T_INDICEECONOMICOS_FK">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:43:35 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<containerWithKeyObject>F92D174F-682B-273F-433E-48E6227D32FD</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>C2325DCD-BC8C-8BD4-1AF0-26D74D379C2D</localFKIndex>
+<keyObject>4A129E8D-1FD4-C93F-7F44-198ADEAE216E</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

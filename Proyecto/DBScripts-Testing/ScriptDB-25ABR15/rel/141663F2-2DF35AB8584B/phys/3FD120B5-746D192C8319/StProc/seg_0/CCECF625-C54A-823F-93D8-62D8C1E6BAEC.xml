@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="SP_OBTENERTC" directorySegmentName="seg_0" id="CCECF625-C54A-823F-93D8-62D8C1E6BAEC">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>SP_OBTENERTC</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:29 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<owner>3919DA2A-C451-AB45-1584-FB489057BDD4</owner>
+<source>CREATE OR REPLACE PROCEDURE MVIALES.SP_OBTENERTC(&lt;br/&gt;  PDATE IN DATE,&lt;br/&gt;  PRESULT OUT NUMBER&lt;br/&gt;) IS&lt;br/&gt;  MES NUMBER(2);&lt;br/&gt;  ANIO NUMBER(4);&lt;br/&gt;BEGIN&lt;br/&gt;  -- OBTENER EL MES Y ANIO DE LA FECHA&lt;br/&gt;  SELECT &lt;br/&gt;    EXTRACT(MONTH FROM PDATE),EXTRACT(YEAR FROM PDATE) INTO MES,ANIO&lt;br/&gt;  FROM DUAL;&lt;br/&gt;  -- SELECCIONE EL TIPO DE CAMBIO DE LA TABLA DE TIPOS DE CAMBIO&lt;br/&gt;  SELECT&lt;br/&gt;    TC.MONTO INTO PRESULT&lt;br/&gt;  FROM T_TIPOCAMBIOS TC&lt;br/&gt;  WHERE TC.MES = MES AND TC.ANIO = ANIO;&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE PROCEDURE MVIALES.SP_OBTENERTC(&lt;br/&gt;  PDATE IN DATE,&lt;br/&gt;  PRESULT OUT NUMBER&lt;br/&gt;) IS&lt;br/&gt;  MES NUMBER(2);&lt;br/&gt;  ANIO NUMBER(4);&lt;br/&gt;BEGIN&lt;br/&gt;  -- OBTENER EL MES Y ANIO DE LA FECHA&lt;br/&gt;  SELECT &lt;br/&gt;    EXTRACT(MONTH FROM PDATE),EXTRACT(YEAR FROM PDATE) INTO MES,ANIO&lt;br/&gt;  FROM DUAL;&lt;br/&gt;  -- SELECCIONE EL TIPO DE CAMBIO DE LA TABLA DE TIPOS DE CAMBIO&lt;br/&gt;  SELECT&lt;br/&gt;    TC.MONTO INTO PRESULT&lt;br/&gt;  FROM T_TIPOCAMBIOS TC&lt;br/&gt;  WHERE TC.MES = MES AND TC.ANIO = ANIO;&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>

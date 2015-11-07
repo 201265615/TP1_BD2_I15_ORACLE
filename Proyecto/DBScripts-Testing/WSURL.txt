@@ -1,0 +1,14 @@
+
+Para oraserveri
+http://localhost:7101/CUSTOMAPP-WSSOAP-context-root/WSPLSQLPort
+
+Para oramaster
+http://localhost:7101/CUSTOMAPP-WSSOAP2-context-root/WSPLSQLPort
+
+http://localhost:7101/CUSTOMAPP-WSSOAP2-context-root/WSPLSQLMSPort
+
+http://localhost:7101/CUSTOMAPP-WSSOAP2-context-root/WSPLSQLPort
+
+http://localhost:7101/CUSTOMAPP-WSSOAP3-context-root/WSPLSQL3Port
+
+http://localhost:7101/CUSTOMAPP-WSSOAP2-context-root/WSPLSQLPort

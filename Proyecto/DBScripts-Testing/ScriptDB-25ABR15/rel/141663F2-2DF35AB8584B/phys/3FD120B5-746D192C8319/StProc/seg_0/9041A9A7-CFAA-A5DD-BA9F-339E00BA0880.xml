@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="SP_GETCOMPONENTES" directorySegmentName="seg_0" id="9041A9A7-CFAA-A5DD-BA9F-339E00BA0880">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>SP_GETCOMPONENTES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 21:44:29 UTC</createdTime>
+<ownerDesignName>ScriptDB-25ABR15</ownerDesignName>
+<owner>3919DA2A-C451-AB45-1584-FB489057BDD4</owner>
+<source>CREATE OR REPLACE Procedure MVIALES.SP_GETCOMPONENTES &lt;br/&gt;IS&lt;br/&gt;      Var_codComponente VARCHAR2(20);&lt;br/&gt;      Var_codArticulo VARCHAR2(20);&lt;br/&gt;      &lt;br/&gt;      CURSOR cursorComponentes IS SELECT codComponente,codArticulo FROM t_componentes;&lt;br/&gt;&lt;br/&gt;BEGIN&lt;br/&gt;      open cursorComponentes;&lt;br/&gt;      loop&lt;br/&gt;        fetch cursorComponentes into Var_codComponente,Var_codArticulo; &lt;br/&gt;        exit when cursorComponentes %notfound;&lt;br/&gt;        DBMS_OUTPUT.PUT_LINE(Var_codComponente); --solo para verifcar&lt;br/&gt;      end loop;&lt;br/&gt;      close cursorComponentes;&lt;br/&gt;      commit;&lt;br/&gt;END SP_GetComponentes;</source>
+<body>CREATE OR REPLACE Procedure MVIALES.SP_GETCOMPONENTES &lt;br/&gt;IS&lt;br/&gt;      Var_codComponente VARCHAR2(20);&lt;br/&gt;      Var_codArticulo VARCHAR2(20);&lt;br/&gt;      &lt;br/&gt;      CURSOR cursorComponentes IS SELECT codComponente,codArticulo FROM t_componentes;&lt;br/&gt;&lt;br/&gt;BEGIN&lt;br/&gt;      open cursorComponentes;&lt;br/&gt;      loop&lt;br/&gt;        fetch cursorComponentes into Var_codComponente,Var_codArticulo; &lt;br/&gt;        exit when cursorComponentes %notfound;&lt;br/&gt;        DBMS_OUTPUT.PUT_LINE(Var_codComponente); --solo para verifcar&lt;br/&gt;      end loop;&lt;br/&gt;      close cursorComponentes;&lt;br/&gt;      commit;&lt;br/&gt;END SP_GetComponentes;</body>
+</StoredProcedureOraclev10g>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FKT_CONTACTO536274" directorySegmentName="seg_0" id="C947B054-23C2-7B01-3B74-6BDA053C9B60">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>D1DE1989-7726-B0B4-679D-C8F3BCEC76AC</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<sourcePk>BB1AA9BB-330A-8E04-987C-BF65EF3387BE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>08A9E906-1C69-5131-49E9-80ED6379CE5B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F34FE03C-7B39-E532-B0B7-605953684578</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_TIPOCAMBIOS_T_INDICEECONOMICOS_FK" directorySegmentName="seg_0" id="D6B794C1-6851-7310-5F7E-E077FA60EB05">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:50:35 UTC</createdTime>
+<generatorID>206C4D66-4F6D-4F86-DEBC-9E7676048782</generatorID>
+<ownerDesignName>TERADATA</ownerDesignName>
+<engineerTo>
+<item key="4CC0FA71-92CB-88DB-6102-637A742B7D22" value="true"/>
+</engineerTo>
+<sourcePk>A17C7D84-339B-96F8-896D-382DFE2146BF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12CF998E-A20D-2365-6CE7-9FB727321189</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B7FD1F0B-5F40-43B7-2629-B7022012211C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

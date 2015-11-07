@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c>
+   <object objectType="TSpace" objectID="57CBD3EB-6EB7-5405-83B4-A9C0DD986185" name="PROYECTO" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="23EA419D-9760-8EA2-FE3F-EAF70E91A3C5" name="MVIALES" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="0660332F-3282-D41F-0D38-732C7E942184" name="T_ARTICULOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="0715F84F-4BF1-A90B-AA6B-52F4B68809E1" name="T_LISTAPRECIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="20229B81-272B-4BC9-7274-81B8828DA535" name="T_MARCAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="2C38AB0D-323C-0B6F-939C-58321458A18B" name="T_TIPOERRORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="3314E968-A06B-929F-12D3-A93D7EAAB89A" name="T_TIPOCONTACTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="4042B0B9-6E83-1FF1-70C7-ADB7E012F567" name="T_PROYECCIONESLISTAPRECIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="617B92BB-1F47-F8B8-8B10-A2E390E9FDE9" name="T_COTIZACIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="67E0F8BE-8C04-0EB8-6F15-2F5BD64FABAD" name="T_ESTADOSTIPOCAMBIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="6C6BB792-C4EC-1236-1CD0-A19764E42871" name="T_PAISES" seqName="seg_0"/>
+   <object objectType="Table" objectID="6F096BAB-5E93-A7BA-DC10-94FA64EC2C90" name="T_COTIZACIONESTADOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="71C7D0DC-80F2-BE1D-0211-928E1705B866" name="T_IndiceEconomicos " seqName="seg_0"/>
+   <object objectType="Table" objectID="7BABA851-B602-6CFF-C069-072BEA759B8A" name="T_FAMILIAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="7DA724BA-1A3A-D1A0-B6DD-9303427E5013" name="T_UNIDADMEDIDAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="7DC7988B-EF7F-49EA-D85D-0A465F391FF5" name="T_FACTURACOMPRAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="8469D92D-90FA-9928-D0B9-BA5B71B9D9C2" name="T_LISTAPRECIOXARTICULOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="8E3C4EA5-F85B-9951-B16F-4A0A381B2ABF" name="T_MESANIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="8F6DB802-1AAB-A9DB-7E80-846C9D2FC618" name="T_USUARIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="932F6D82-7ADB-5D78-26C5-07DAC347D830" name="T_TIPOCAMBIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="9BC4E739-874B-C75C-A0CB-29539EA8E644" name="T_TIPOEMPRESA" seqName="seg_0"/>
+   <object objectType="Table" objectID="A4CF6A6E-C853-1407-99BA-4DEC37F38B15" name="T_CONTACTO" seqName="seg_0"/>
+   <object objectType="Table" objectID="AFFE39F7-DA8C-2581-2C2B-D6224500AE4A" name="T_DETALLEDIRECCION" seqName="seg_0"/>
+   <object objectType="Table" objectID="B0B503D9-CCA1-0C6B-57ED-18EFA028511C" name="T_TIPOUSUARIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B11253C5-F914-8189-5D2C-EE81227DB0E0" name="T_ARTICULOESTADOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B44BC783-7C10-F23E-5EF0-FC8B941E3707" name="T_EMPRESA" seqName="seg_0"/>
+   <object objectType="Table" objectID="BDC3025B-5DF0-A9D5-D854-9075158B4C65" name="T_MONEDAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="C9F54769-FB53-67C4-2E1B-3B15AECE7B37" name="T_ARTICULOSCOTIZADOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="D22A7486-E806-ACD2-2873-475F1A59F658" name="T_PERMISOUSUARIOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="DC8B9ED6-5249-E76A-0851-196CBA716E2C" name="T_LINEASFACTURACOMPRAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="DF682E59-8DA3-E1C7-C3F3-4B81338CA866" name="T_CUIDADES" seqName="seg_0"/>
+   <object objectType="Table" objectID="E51AC1DF-0F40-2A9F-69DA-531F4FCCB2FF" name="T_BITACORA" seqName="seg_0"/>
+   <object objectType="Table" objectID="F8D8D75C-240F-A6D5-EEF5-8A48029E1BD9" name="T_PROVINCIAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="FC27F091-A4E3-0066-1D5A-6442BD7D0CF8" name="T_COMPONENTES" seqName="seg_0"/>
+   <object objectType="Segment" objectID="A405B916-0F64-EAAE-BE2D-F17298043A39" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="1FC080AE-E47C-0EC9-99B3-2F77123479F3" name="Storage2" seqName="seg_0"/>
+   <object objectType="Segment" objectID="348F1196-13E4-CEEF-C298-B4EBB83BB57D" name="Storage3" seqName="seg_0"/>
+   <object objectType="Segment" objectID="0ADC54F7-6669-7898-8318-96765888DF46" name="Storage33" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c>

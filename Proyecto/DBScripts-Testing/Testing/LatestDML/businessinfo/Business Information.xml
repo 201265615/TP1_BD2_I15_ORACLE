@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="D250AF8A-6F76-2E25-77DB-5FFC73483858">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-24 00:57:39 UTC</createdTime>
+<ownerDesignName>LatestDML</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

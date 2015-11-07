@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="932F6D82-7ADB-5D78-26C5-07DAC347D830" name="T_TIPOCAMBIOS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_TIPOCAMBIOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<schemaObject>887EEE25-4325-0FDB-46F4-CA761433F2BF</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODMONEDA1" id="4F7694C0-BF2E-52C4-1FE8-5FDF55EF30F9">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>CODMONEDA1</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>45562859-6EF5-08FB-7E82-E7E32556175D</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7D6F93C-56C5-C41F-F9E9-FACA254E5E74" referredColumn="45562859-6EF5-08FB-7E82-E7E32556175D"/>
+</associations>
+</Column>
+<Column name="CODMONEDA2" id="50E0BEC7-B750-B647-0CEC-05AB543A1E44">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>CODMONEDA2</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>45562859-6EF5-08FB-7E82-E7E32556175D</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA96E1F7-8949-1EB9-BE60-8A36105E4100" referredColumn="45562859-6EF5-08FB-7E82-E7E32556175D"/>
+</associations>
+</Column>
+<Column name="MONTO" id="068008E2-A8B3-ACB3-CB0D-C0B6ECF8B40B">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>MONTO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>17</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODINDICEECONOMICO" id="33975684-CEA7-CBC4-4C81-1D9C1778CA94">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>CODINDICEECONOMICO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>29C431F2-F4AA-D628-8632-6AE31A2BF887</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5624D202-6ACF-C5E4-5997-68320E4DA5AD" referredColumn="29C431F2-F4AA-D628-8632-6AE31A2BF887"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="F42A40F2-46B1-3AD6-ED70-8146480B912C">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>40D9F3EE-AF84-A239-E5F6-DF7CF99167CB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74C628BA-2EE8-1D20-B517-A37AE84720CC" referredColumn="40D9F3EE-AF84-A239-E5F6-DF7CF99167CB"/>
+</associations>
+</Column>
+<Column name="MES" id="7C4BD61B-7684-8A42-F2B3-91B8E57E3DDB">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>MES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>E91C313D-2A02-69E0-C664-C6EC101438BD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B243D8C-B366-3D38-BF09-95B8931BBBFE" referredColumn="E91C313D-2A02-69E0-C664-C6EC101438BD"/>
+</associations>
+</Column>
+<Column name="ANIO" id="13285484-14C9-C2B7-C224-2FE5B1572470">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_TIPOCAMBIOS</sourceObjSchema>
+<sourceObjName>ANIO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:16 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<delegate>169D7D50-AA8B-0C37-6899-439EE2E35B1A</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B243D8C-B366-3D38-BF09-95B8931BBBFE" referredColumn="169D7D50-AA8B-0C37-6899-439EE2E35B1A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1AABD6C-3A80-2ECB-6F84-83B2AB80A687" name="FKT_TIPOCAMB317616">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33975684-CEA7-CBC4-4C81-1D9C1778CA94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76AD85F8-E62C-AAB5-9464-AE52931E922E" name="FKT_TIPOCAMB620100">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F7694C0-BF2E-52C4-1FE8-5FDF55EF30F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F92CF52-DBF7-CB60-7309-A3D206ACEC0D" name="FKT_TIPOCAMB620101">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50E0BEC7-B750-B647-0CEC-05AB543A1E44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FB8F0F6-9469-DEDB-A900-248F60CC603B" name="FKT_TIPOCAMB651026">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F42A40F2-46B1-3AD6-ED70-8146480B912C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C57EEF7-B6BE-2A70-CB1E-7AAA0532CF29" name="FKT_TIPOCAMB923514">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-17 22:47:18 UTC</createdTime>
+<ownerDesignName>IC4302-DB2-Progra1-TEC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C4BD61B-7684-8A42-F2B3-91B8E57E3DDB"/>
+<colUsage columnID="13285484-14C9-C2B7-C224-2FE5B1572470"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

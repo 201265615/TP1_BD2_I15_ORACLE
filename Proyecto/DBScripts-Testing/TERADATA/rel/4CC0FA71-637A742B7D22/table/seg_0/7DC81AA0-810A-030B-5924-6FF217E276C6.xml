@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DC81AA0-810A-030B-5924-6FF217E276C6" name="T_PROYECCIONESLISTAPRECIOS">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>MVIALES</sourceObjSchema>
+<sourceObjName>T_PROYECCIONESLISTAPRECIOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:46 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<schemaObject>2ABE0AED-8ADC-C59A-0B00-3F6D8E309E01</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODARTICULO" id="A3CB7195-7438-2394-0611-E4CA9695F704">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROYECCIONESLISTAPRECIOS</sourceObjSchema>
+<sourceObjName>CODARTICULO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<delegate>51F8C560-EA80-3C87-0860-FA294BEBB790</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6FB5E19-38FE-0E94-A23F-039A246EE139" referredColumn="51F8C560-EA80-3C87-0860-FA294BEBB790"/>
+</associations>
+</Column>
+<Column name="CODLISTAPRECIOS" id="F12345B5-34A0-BCDE-1D8E-8375C05ADFDA">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROYECCIONESLISTAPRECIOS</sourceObjSchema>
+<sourceObjName>CODLISTAPRECIOS</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>B70593E8-97B6-D21D-BEE5-9E730BD5528E</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6FB5E19-38FE-0E94-A23F-039A246EE139" referredColumn="B70593E8-97B6-D21D-BEE5-9E730BD5528E"/>
+</associations>
+</Column>
+<Column name="MES" id="AD72F73F-8433-64AD-7347-80E941F1241C">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROYECCIONESLISTAPRECIOS</sourceObjSchema>
+<sourceObjName>MES</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>EA5F9219-5A54-9BC5-2EE1-8A64CD4FE4DA</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7D1C98A-96E0-1CAB-CFFB-AA1C771FBE99" referredColumn="EA5F9219-5A54-9BC5-2EE1-8A64CD4FE4DA"/>
+</associations>
+</Column>
+<Column name="ANIO" id="892DBDA2-7328-B189-A50C-1000C6F5F502">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROYECCIONESLISTAPRECIOS</sourceObjSchema>
+<sourceObjName>ANIO</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<delegate>13749C10-4DA8-2448-2518-EBAFF12963CB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7D1C98A-96E0-1CAB-CFFB-AA1C771FBE99" referredColumn="13749C10-4DA8-2448-2518-EBAFF12963CB"/>
+</associations>
+</Column>
+<Column name="TIPOCAMBIOPROYECT" id="987C1285-E63B-DACC-BB91-A4B4F675C16D">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROYECCIONESLISTAPRECIOS</sourceObjSchema>
+<sourceObjName>TIPOCAMBIOPROYECT</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>17</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIOMERCDOLARESPROYECT" id="DEA9F8C1-A8AE-262A-368F-EFC75F3CA388">
+<sourceConnName>oraserveri-proyectopdb-mviales</sourceConnName>
+<sourceObjSchema>T_PROYECCIONESLISTAPRECIOS</sourceObjSchema>
+<sourceObjName>PRECIOMERCDOLARESPROYECT</sourceObjName>
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:47 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>17</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D1028A5-7871-2AA8-E45F-319B8C18C9C0" name="FKT_PROYECCI566293">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F12345B5-34A0-BCDE-1D8E-8375C05ADFDA"/>
+<colUsage columnID="A3CB7195-7438-2394-0611-E4CA9695F704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8DC55B8-41A9-98C4-3AE7-B9FEA7AF45FC" name="FKT_PROYECCI761595">
+<createdBy>riho</createdBy>
+<createdTime>2015-04-25 02:21:50 UTC</createdTime>
+<ownerDesignName>TERADATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD72F73F-8433-64AD-7347-80E941F1241C"/>
+<colUsage columnID="892DBDA2-7328-B189-A50C-1000C6F5F502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
